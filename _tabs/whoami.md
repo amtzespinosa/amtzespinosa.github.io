@@ -11,11 +11,9 @@ I'm a proactive **Cybersecurity and OSINT professional** with a focus and backgr
 ## About
 
 - Freelance physical & digital pentester
-- Former Green Beret (Special Forces Operator)
+- Former Special Forces Operator
 - Generally interested in cybersecurity, pentesting, red teaming, OSINT, networking, python, and heavy metal
 - Used to be a web developer but I started focusing on other things like web app security, vulnerability exploiting, reverse engineering and so on...
-
-You can download my resume in **<a href="https://github.com/amtzespinosa/python-hacking-tools">pdf</a>** format.
 
 ---
 
