@@ -54,7 +54,7 @@ I'm a proactive **Cybersecurity and OSINT professional** with a focus and backgr
 
 - **CCST Cybersecurity** / CISCO Certified Technician
 - **CEH** / EC Council Certified Ethical Hacker
-- **Practical Ethical Hacking** / TCM
+- **Practical Ethical Hacking** / TCM Security
 
 #### Programming
 
@@ -67,7 +67,7 @@ I'm a proactive **Cybersecurity and OSINT professional** with a focus and backgr
 
 #### Other
 
-- **OSINT** / TCM
+- **OSINT** / TCM Security
 - **CompTIA A+** / IT Support
 - **CS50** / Introduction to Computer Science
 - **Negociation** / University of Michigan Successful Negotiations
