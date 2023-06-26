@@ -11,9 +11,11 @@ I'm a proactive **Cybersecurity and OSINT professional** with a focus and backgr
 ## About
 
 - Freelance physical & digital pentester
-- Former Special Forces Operator
+- Former Green Beret (Special Forces Operator)
 - Generally interested in cybersecurity, pentesting, red teaming, OSINT, networking, python, and heavy metal
 - Used to be a web developer but I started focusing on other things like web app security, vulnerability exploiting, reverse engineering and so on...
+
+You can download my resume in **<a href="https://amtzespinosa.github.io/assests/docs/alejandro_martinez_espinosa_resume.pdf">pdf</a>** format.
 
 ---
 
@@ -45,7 +47,7 @@ I'm a proactive **Cybersecurity and OSINT professional** with a focus and backgr
 
 - Develop, maintain and modify WordPress plugins source code as needed
 - Ensure websites and plugins are up to date and patched
-- Develop and implement effective SEO strategies
+- Develop and implement effective SEO strategist
 - Write detailed and customer friendly reports with the metrics obtained, errors to solve and guidelines
 
 ## Certifications 
@@ -77,6 +79,9 @@ I'm a proactive **Cybersecurity and OSINT professional** with a focus and backgr
 <kbd>Pentesting</kbd> <kbd>Red Teaming</kbd> <kbd>Social Engineering</kbd> <kbd>OWASP</kbd> <kbd>OSINT</kbd> <kbd>OpSec</kbd>
 <kbd>PHP</kbd> <kbd>JavaScript</kbd> <kbd>Bash</kbd> <kbd>C++</kbd> <kbd>HTML</kbd> <kbd>CSS</kbd>
 <kbd>VPN</kbd> <kbd>Network Configuration & Monitoring</kbd> <kbd>Firewalls</kbd> <kbd>Linux</kbd> <kbd>Windows</kbd> <kbd>Unorthodox Thinking</kbd>
+
+
+
 
 
 
