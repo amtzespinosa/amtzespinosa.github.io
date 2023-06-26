@@ -15,7 +15,7 @@ I'm a proactive **Cybersecurity and OSINT professional** with a focus and backgr
 - Generally interested in cybersecurity, pentesting, red teaming, OSINT, networking, python, and heavy metal
 - Used to be a web developer but I started focusing on other things like web app security, vulnerability exploiting, reverse engineering and so on...
 
-You can download my resume in **[pdf](/assests/docs/alejandro_martinez_espinosa_resume.pdf)** format.
+You can download my resume in **[pdf](/assets/docs/alejandro_martinez_espinosa_resume.pdf)** format.
 
 ---
 
