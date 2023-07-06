@@ -36,7 +36,7 @@ This week is an easy one for me as it covers topics I have already learnt by hea
 
 **Practice**
 
-- **[Kioptrix #1](/posts/kioptrix-1-walkthrough/)** - includes report and OSCP-oriented report
+- **[Kioptrix #1](/posts/kioptrix-1-walkthrough/)** 
 - **[Kioptrix #2]()**
 - **[Tr0ll]()**
 - **[Lord Of The Root]()**
@@ -46,7 +46,7 @@ This week is an easy one for me as it covers topics I have already learnt by hea
 
 Why don't we start with bureaucracy? *Yay!* 
 
-Not even the amazing and exciting world of hacking is free of paperwork. As a penterster your job is not only hacking and getting into places - after the fun part you'll have to write a report. This report is a way to communicate your findings in a structured way so the Blue Team can fix them or the chiefs can take a decission on what the company should do.
+Not even the amazing and exciting world of hacking is free of paperwork. As a penterster your job is not only hacking and getting into places -- after the fun part you'll have to write a report. This report is a way to communicate your findings in a structured way so the Blue Team can fix them or the chiefs can take a decission on what the company should do.
 
 And you may wonder: if it's the last step why learning it first? Answer: because I want to build a healthy methodology and get use to write reports so I will be writing an OSCP-like report for at least one of the VMs I hack into. And you should too. Not just to prepare for the OSCP but for your future.
 
@@ -155,7 +155,7 @@ Port scanning is the **process of checking for open TCP or UDP ports on a remote
 
 - **Port Scanning with Nmap**
 
-Here's a video about port scanning with Nmap: **[NetworkChuck's Nmap Scanning.](https://www.youtube.com/watch?v=4t4kBkMsDbQ&t=872s&ab_channel=NetworkChuck)** Nmap is a huge tool with plenty of possibilities - this is a basic usage video but enough for our purposes right now. The video also explains **TCP scans theory** and the **3-way handshake.**
+Here's a video about port scanning with Nmap: **[NetworkChuck's Nmap Scanning.](https://www.youtube.com/watch?v=4t4kBkMsDbQ&t=872s&ab_channel=NetworkChuck)** Nmap is a huge tool with plenty of possibilities -- this is a basic usage video but enough for our purposes right now. The video also explains **TCP scans theory** and the **3-way handshake.**
 
 If you want to know more about Nmap, I recommend you to check **[HackerSploit's Nmap Series.](https://www.youtube.com/playlist?list=PLBf0hzazHTGM8V_3OEKhvCM9Xah3qDdIx)** This is gold and will give you solid knowledge about this tool.
 
