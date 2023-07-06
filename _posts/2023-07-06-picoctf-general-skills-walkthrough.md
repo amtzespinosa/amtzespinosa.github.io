@@ -4,7 +4,7 @@ author: alex
 date: Thu  6 Jul 09:59:03 CEST 2023
 categories: [PicoCTF,Walkthroughs]
 tags: [picoctf, ctf, walkthroughs]
-img_path: /assets/img/2023-07-06-picoctf-general-skills-walkthrough/
+img_path: /assets/img/posts/2023-07-06-picoctf-general-skills-walkthrough/
 image:
   path: picoctf.png
   alt: picoCTF Logo.
