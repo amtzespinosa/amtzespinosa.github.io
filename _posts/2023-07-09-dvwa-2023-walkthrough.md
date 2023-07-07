@@ -1,7 +1,7 @@
 ---
 title: DVWA 2023 Edition
 author: alex
-date: Thu  6 Jul 16:15:48 CEST 2023
+date: Thu 6 Jul 10:59:03 CEST 2023
 categories: [DVWA,Walkthroughs]
 tags: [dvwa, ctf, walkthroughs, web hacking]
 img_path: /assets/img/posts/2023-07-09-dvwa-2023-walkthrough/
