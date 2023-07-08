@@ -1,7 +1,7 @@
 ---
 title: "Stapler: 1 Walkthrough"
 author: alex
-date: Thu  6 Jul 20:15:48 CEST 2023
+date: Thu  6 Jul 21:15:48 CEST 2023
 categories: [OSCP Prep,Week 0]
 tags: [oscp, learning path]
 img_path: /assets/img/posts/2023-07-08-stapler-walkthrough/
