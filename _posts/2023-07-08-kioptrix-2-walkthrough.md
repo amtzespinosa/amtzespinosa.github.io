@@ -1,7 +1,7 @@
 ---
 title: "Kioptrix #2 Walkthrough"
 author: alex
-date: Thu  6 Jul 17:15:48 CEST 2023
+date: Thu  6 Jul 18:15:48 CEST 2023
 categories: [OSCP Prep,Walkthroughs]
 tags: [oscp, ctf, walkthroughs, vulnhub]
 img_path: /assets/img/posts/2023-07-08-kioptrix-2-walkthrough/
