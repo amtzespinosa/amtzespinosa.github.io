@@ -14,6 +14,7 @@ Here's a list of all the VMs I have compromised so far! The difficulty is the on
 | 2. | **[Kioptrix #2](/posts/kioptrix-2-walkthrough/)**            | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/kioptrix-level-11-2,23/)**   |
 | 3. | **[Tr0ll: 1](/posts/tr0ll-walkthrough/)**                    | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/tr0ll-1,100/)**              |
 | 4. | **[Lord Of The Root](https://github.com/amtzespinosa/lord-of-the-root-walkthrough)** | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/lord-of-the-root-101,129/)** |
+| 5. | **[Stapler: 1](/posts/stapler-walkthrough/)**                | Linux           | Easy-Medium    |  | **[Vulnhub](https://www.vulnhub.com/entry/stapler-1,150/)**            |
 
 ## Web Apps
 
