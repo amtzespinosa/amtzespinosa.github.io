@@ -150,11 +150,11 @@ To compromise this section, we only have to submit `<script>alert(1)</script>` i
 
 To compromise this section, we have to submit `<img src="foo" onerror="alert(1)>` in the name field but we have a length limit. We can bypass that limit with **Burp Suite**.
 
-![DVWA Medium Security Stored XSS](/low-stored-xss-burp.png)
+![DVWA Medium Security Stored XSS](/medium-stored-xss-burp.png)
 
 As you can see, I have replaced the name input text with the payload. By clicking forward twice, the alert will appear.
 
-![DVWA Medium Security Stored XSS](/low-stored-xss-poc.png)
+![DVWA Medium Security Stored XSS](/medium-stored-xss-poc.png)
 
 ### High
 
