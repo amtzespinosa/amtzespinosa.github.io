@@ -1,7 +1,7 @@
 ---
 title: DVWA 2023 Edition
 author: alex
-date: Thu 6 Jul 08:59:03 CEST 2023
+date: Thu 6 Jul 08:15:48 CEST 2023
 categories: [DVWA,Walkthroughs]
 tags: [dvwa, ctf, walkthroughs, web hacking]
 img_path: /assets/img/posts/2023-07-09-dvwa-2023-walkthrough/
@@ -59,3 +59,109 @@ Here's a screenshot (not the best PoC -- but does the job) where you can see **t
 ![DVWA Impossible Security Brute Force](/impossible.png)
 
 That's all covering **DVWA Brute Force.** Hope you had fun although is pretty simple and straight forward to compromise even the **Impossible security level.**
+
+## XSS (DOM)
+
+Our first real web vulnerability is going to be **Cross Site Scripting (XSS)**. There are are three types of XSS and we are going to exploit them all but let's start with DOM XSS.
+
+**Document Object Model (DOM) XSS** happens because of the modification of a DOM environment by the client-side script. 
+
+Knowing this, let's begin!
+
+### Low
+
+To test the page, we can select one of the *language* options. Now, as we can see, the URL changes. If we change the URL from `?default=English` to `?default=aaaaaaa`, the string will be included as one of the options -- this means it's vulnerable (we already knew but anyway I get excited!)
+
+![DVWA Low Security XSS Test](/low-dom-xss-test.png)
+
+And now we change the URL to `?default=<script>alert(1)</script>`. It may get partially URL-encoded and changed to `?default=<script>alert(1)<%2Fscript>`: insist! Change `%2F` to `/` and an alert will pop up.
+
+![DVWA Low Security DOM XSS](/low-dom-xss-poc.png)
+
+In a real scenario we would use a malicious script instead of this naive `alert()`.
+
+### Medium
+
+This level is a bit different as we can't evocate the script directly so we have to find a way to bypass this restriction. In this cases, we can usually execute the malicious script indirectly causing an error.
+
+This one consists in using a legal piece of code containing an error with `alert()` as the code to execute in case of that error: `?default=English</option></select><img src="foo" onerror="alert(1)">`.
+
+Adding that to the URL will tell the page to load an `img` from a non-existent source what will cause an error. And, as you can see, we are executing the script once that error happens.
+
+![DVWA Medium Security DOM XSS](/medium-dom-xss-poc.png)
+
+Another thing I found by mistake while trying to find the right script is this "out-of-nowhere" information display adding this to the URL: `?default=English</option><img src="foo" onerror="alert(1)>`.
+
+![DVWA Medium Security XSS Info](/info-disclosed.png)
+
+That little modification makes the page display some information that I don't know if it's intended to be displayed there. 
+
+### High
+
+Although exploiting this level of security should be harder, it is not. It is as simple as the low level but with a little mod: `?default=#<script>alert(1)</script>`. Note the `#` before our script.
+
+![DVWA Medium Security DOM XSS](/high-dom-xss-poc.png)
+
+And this is the last level of security we can exploit in DVWA.
+
+### Impossible
+
+I haven't found any way to exploit the impossible level yet!
+
+## XSS (Reflected)
+
+This injection is not persistent and one of the examples of how this can be exploited is when the user is tricked to click on a malicious link or, as in this case, by submitting a malicious script in a non-sanitized input field that reflects the input in the page.
+
+### Low
+
+To compromise this section, we only have to submit `<script>alert(1)</script>` in the input field.
+
+![DVWA Low Security Reflected XSS](/low-reflected-xss-poc.png)
+
+### Medium 
+
+To compromise this section, we only have to submit `</option><img src="foo" onerror="alert(1)>` in the input field. Just like we did with the DOM XSS. There is another way and it's using capital letters: `<SCRIPT>alert(1)</SCRIPT>`
+
+![DVWA Medium Security Reflected XSS](/low-reflected-xss-poc.png)
+
+### High
+
+To compromise the high security level, we can use `</option><img src="foo" onerror="alert(1)>`. 
+
+![DVWA High Security Reflected XSS](/high-reflected-xss-poc.png)
+
+### Impossible
+
+I haven't found any way to exploit the impossible level yet!
+
+## XSS (Stored)
+
+Stored XSS is permanently stored on the website and malicious scripts can be executed every time user visits the page. 
+
+Let's get to it!
+
+### Low
+
+To compromise this section, we only have to submit `<script>alert(1)</script>` in the message field and whatever in the name field.
+
+![DVWA Low Security Stored XSS](/low-stored-xss-poc.png)
+
+### Medium 
+
+To compromise this section, we have to submit `<img src="foo" onerror="alert(1)>` in the name field but we have a length limit. We can bypass that limit with **Burp Suite**.
+
+![DVWA Medium Security Stored XSS](/low-stored-xss-burp.png)
+
+As you can see, I have replaced the name input text with the payload. By clicking forward twice, the alert will appear.
+
+![DVWA Medium Security Stored XSS](/low-stored-xss-poc.png)
+
+### High
+
+To compromise the high security level, we can use the same process as before! 
+
+![DVWA High Security Stored XSS](/high-stored-xss-poc.png)
+
+### Impossible
+
+I haven't found any way to exploit the impossible level yet!
