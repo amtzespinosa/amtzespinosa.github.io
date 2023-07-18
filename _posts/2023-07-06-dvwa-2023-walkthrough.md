@@ -160,8 +160,6 @@ As you can see, I have replaced the name input text with the payload. By clickin
 
 To compromise the high security level, we can use the same process as before! 
 
-![DVWA High Security Stored XSS](/high-stored-xss-poc.png)
-
 ### Impossible
 
 I haven't found any way to exploit the impossible level yet!
