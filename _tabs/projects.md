@@ -8,6 +8,8 @@ order: 2
 
 One of the most valuable skills as a Red Team Operator is the ability to build your own tools. During my learning path to the PCEP and later the PCAP I started coding my own Python hacking toolkit. I keep adding tools to this project as I code them - generally during my job as a red teamer.
 
+![Python Hacking Tools](/assets/img/pages/python.png)
+
 ### <a href="https://github.com/amtzespinosa/passman">#passman</a>
 
 **#passman** is a password generator and manager built using Python and SQLite3. It has a nice GUI made with **Tkinter** and  **CustomTkinter**.
