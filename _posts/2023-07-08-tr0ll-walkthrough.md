@@ -1,7 +1,7 @@
 ---
 title: "Tr0ll: 1 Walkthrough"
 author: alex
-date: Thu  6 Jul 19:15:48 CEST 2023
+date: Sat 8 Jul 19:15:48 CEST 2023
 categories: [OSCP Prep,Walkthroughs]
 tags: [oscp, ctf, walkthroughs, vulnhub]
 img_path: /assets/img/posts/2023-07-07-tr0ll-walkthrough
