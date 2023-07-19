@@ -67,7 +67,7 @@ Same as before: `/directory_traversal_2.php?directory=/root`
 
 #### Low
 
-This is the last part of the URL: `/directory_traversal_1.php?page=/etc/passwd`. THe page displays a message that, according to the URL is written in a document: `message.txt`. Now, let's try to change it to another document: `/etc/passwd`.
+This is the last part of the URL: `/directory_traversal_1.php?page=/etc/passwd`. The page displays a message that, according to the URL is written in a document: `message.txt`. Now, let's try to change it to another document: `/etc/passwd`.
 
 As soon as we change it and hit `Enter`, we can see the content inside the `/etc/passwd` file.
 
