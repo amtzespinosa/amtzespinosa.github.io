@@ -20,9 +20,22 @@ Here's a list of all the VMs I have compromised so far! The difficulty is the on
 
 ### DVWA
 
-| **Vulnerability** | **Technology**  | **Security Up To** | **Walkthrough**                                                     |
-|:------------------|:----------------|:-------------------|:--------------------------------------------------------------------|
-| **Brute Force**   | PHP             | Impossible         | **[DVWA Brute Force](/posts/dvwa-2023-walkthrough/#brute-force)**   |
+| **Vulnerability** | **Tools**    | **Security Up To** | **Walkthrough**                                                       |
+|:------------------|:-------------|:-------------------|:----------------------------------------------------------------------|
+| **Brute Force**   | Burp Suite   | Impossible         | **[DVWA Brute Force](/posts/dvwa-2023-walkthrough/#brute-force)**     |
+| **DOM XSS**       | JavaScript   | High               | **[DVWA DOM XSS](/posts/dvwa-2023-walkthrough/#xss-dom)**             |
+| **Reflected XSS** | JavaScript   | High               | **[DVWA Reflected XSS](/posts/dvwa-2023-walkthrough/#xss-reflected)** |
+| **Stored XSS**    | JavaScript   | High               | **[DVWA Stored XSS](/posts/dvwa-2023-walkthrough/#xss-stored)**       |
+
+### bWAPP
+
+| **Vulnerability**         | **Security Up To** | **Walkthrough**                                                                                   |
+|:--------------------------|:-------------------|:--------------------------------------------------------------------------------------------------|
+| **OS Command Injection**  | Medium             | **[bWAPP OS Command Injection](/posts/bwapp-2023-walkthrough/#os-command-injection)**             |
+| **Directory Traversal**   | High               | **[bWAPP Directory Traversal](/posts/bwapp-2023-walkthrough/#directory-traversal---directories)** |
+| **Local File Inclusion**  | Low                | **[bWAPP LFI](/posts/bwapp-2023-walkthrough/#local-file-inclusion)**                              |
+| **Remote File Inclusion** | Low                | **[bWAPP RFI](/posts/bwapp-2023-walkthrough/#remote-file-inclusion)**                             |
+| **File Upload**           | High               | **[bWAPP File Upload](/posts/bwapp-2023-walkthrough/#file-upload)**                               |
 
 ## Challenges
 
@@ -32,3 +45,4 @@ Here's a list of all the VMs I have compromised so far! The difficulty is the on
 |:----------------------------------------------------------------------------|:--------------------|
 | **[General Skills in CTF's](/posts/picoctf-general-skills-walkthrough/)**   | 19                  |
 | **[Low Level Binary Intro](/posts/picoctf-general-skills-walkthrough/)**    | 46                  |
+| **[Forensics in CTFs](/posts/picoctf-forensics-in-ctf-walkthrough/)**       | 17                  |
