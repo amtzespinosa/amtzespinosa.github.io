@@ -1,7 +1,7 @@
 ---
 title: OSCPath - Week 1
 author: alex
-date: Thu  6 Jul 16:15:48 CEST 2023
+date: Fri 7 Jul 16:15:48 CEST 2023
 categories: [OSCP Prep,Week 1]
 tags: [oscp, learning path]
 ---
