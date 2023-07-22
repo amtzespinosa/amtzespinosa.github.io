@@ -20,10 +20,10 @@ timezone: Europe/Madrid
 
 title: Alex's PwnLab # the main title
 
-tagline: Another cybersecurity blog! # it will display as the sub-title
+tagline: Red Team & Cybersecurity blog! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Another cybersecurity webpage!
+  Step into the world of Red Teaming & Cybersecurity! Explore the tactics, tools & threats to master the art of offensive security.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://amtzespinosa.github.io/"
@@ -47,7 +47,7 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/alejandro-martinez-espinosa/
 
-google_site_verification: # fill in to your verification string
+google_site_verification: JAMGI_GoeKqgP-mYAEl-Xd3eXf4nyF7WJk86xU7_CV8 # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
