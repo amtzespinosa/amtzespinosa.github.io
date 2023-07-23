@@ -1,8 +1,8 @@
 ---
-title: PicoCTF - General Skills in CTF's Walkthrough
+title: picoCTF - General Skills in CTF's Walkthrough
 author: alex
-date: Thu  6 Jul 09:59:03 CEST 2023
-categories: [PicoCTF,Walkthroughs]
+date: Thu 6 Jul 09:59:03 CEST 2023
+categories: [PicoCTF]
 tags: [picoctf, ctf, walkthroughs]
 img_path: /assets/img/posts/2023-07-06-picoctf-general-skills-walkthrough/
 image:

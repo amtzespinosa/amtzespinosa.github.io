@@ -1,8 +1,8 @@
 ---
 title: picoCTF - Low Level Binary Intro Walkthrough
 author: alex
-date: Thu  6 Jul 10:59:03 CEST 2023
-categories: [PicoCTF,Walkthroughs]
+date: Thu 6 Jul 10:59:03 CEST 2023
+categories: [PicoCTF]
 tags: [picoctf, ctf, walkthroughs]
 img_path: /assets/img/posts/2023-07-06-picoctf-low-level-binary-walkthrough/
 image:

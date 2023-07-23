@@ -2,7 +2,7 @@
 title: bWAPP 2023 Edition
 author: alex
 date: Sun 16 Jul 17:37:41 CEST 2023
-categories: [bWAPP,Walkthroughs]
+categories: [Web]
 tags: [bwapp, ctf, walkthroughs, web hacking]
 img_path: /assets/img/posts/2023-07-16-bwapp-2023-walkthrough/
 image:
@@ -67,7 +67,7 @@ Same as before: `/directory_traversal_2.php?directory=/root`
 
 #### Low
 
-This is the last part of the URL: `/directory_traversal_1.php?page=/etc/passwd`. The page displays a message that, according to the URL is written in a document: `message.txt`. Now, let's try to change it to another document: `/etc/passwd`.
+This is the last part of the URL: `/directory_traversal_1.php?page=/etc/passwd`. THe page displays a message that, according to the URL is written in a document: `message.txt`. Now, let's try to change it to another document: `/etc/passwd`.
 
 As soon as we change it and hit `Enter`, we can see the content inside the `/etc/passwd` file.
 

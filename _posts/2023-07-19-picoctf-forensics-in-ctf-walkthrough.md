@@ -2,7 +2,7 @@
 title: picoCTF - Forensics in CTFs Walkthrough
 author: alex
 date: Wed 19 Jul 12:34:53 CEST 2023
-categories: [PicoCTF,Walkthroughs]
+categories: [PicoCTF]
 tags: [picoctf, ctf, walkthroughs]
 img_path: /assets/img/posts/2023-07-19-picoctf-forensics-in-ctf-walkthrough/
 image:

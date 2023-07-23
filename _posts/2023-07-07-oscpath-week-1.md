@@ -2,7 +2,7 @@
 title: OSCPath - Week 1
 author: alex
 date: Fri 7 Jul 16:15:48 CEST 2023
-categories: [OSCP Prep,Week 1]
+categories: [OSCP]
 tags: [oscp, learning path]
 ---
 
@@ -37,10 +37,10 @@ This week is an easy one for me as it covers topics I have already learnt by hea
 **Practice**
 
 - **[Kioptrix #1](/posts/kioptrix-1-walkthrough/)** 
-- **[Kioptrix #2]()**
-- **[Tr0ll]()**
-- **[Lord Of The Root]()**
-- **[Stapler: 1]()**
+- **[Kioptrix #2](/posts/kioptrix-2-walkthrough/)**
+- **[Tr0ll: 1](/posts/tr0ll-walkthrough/)**
+- **[Lord Of The Root](https://github.com/amtzespinosa/lord-of-the-root-walkthrough)**
+- **[Stapler: 1](/posts/stapler-walkthrough/)**
 
 ## 1. Report Writing for Penetration Testers 
 

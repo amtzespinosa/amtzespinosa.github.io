@@ -2,7 +2,7 @@
 title: OSCPath - Week 2
 author: alex
 date: Sat 15 Jul 10:56:33 CEST 2023
-categories: [OSCP Prep,Week 2]
+categories: [OSCP]
 tags: [oscp, learning path]
 ---
 

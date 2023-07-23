@@ -2,7 +2,7 @@
 title: "Kioptrix #2 Walkthrough"
 author: alex
 date: Sat 8 Jul 18:15:48 CEST 2023
-categories: [OSCP Prep,Walkthroughs]
+categories: [Walkthroughs]
 tags: [oscp, ctf, walkthroughs, vulnhub]
 img_path: /assets/img/posts/2023-07-08-kioptrix-2-walkthrough/
 ---
@@ -42,6 +42,7 @@ _____________________________________________________________________________
 192.168.1.1     08:00:27:bf:11:12      1      60  PCS Systemtechnik GmbH                                          
 192.168.1.38    08:00:27:fd:e3:ab      1      60  PCS Systemtechnik GmbH 
 ```
+## Enumeration 
 
 After getting the IP address of the target we now need to enumerate the target for open ports and protocols. I have used **Nmap** aggressive command for that: 
 
@@ -142,10 +143,6 @@ We can see some interesting ports open here.
 - **Port 80/443:** Let's start with HTTP and HTTPS. We have both ports open so the first thing we are going to do is open the browser and search for http://192.168.1.38. We find a login page, let's keep going with the recon before trying anything here.
 
 - **Other ports:** Visiting http://192.168.1.38:3306/ we see we are not allowed to connect to the MySQL server. 
-
-Done with the recon then!
-
-## Enumeration
 
 Back to the login page. This cheap looking login form is crying for some **SQLi attempts**. And so we do!  As soon as we try the good ol' vanilla `admin' or 1=1 #` in the username text field and `1234` as password, we get access to the administrator page!
 
