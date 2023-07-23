@@ -1,35 +1,68 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
 
 body {
+    background-color: white;
+}
+
+.body-darkmode {
     background-color: #131212;
 }
 
 h1 {
-    color: white;
+    color: #333333;
     text-align: center;
     margin: 3%;
+    margin-top: 0%;
+}
+
+.h1-darkmode {
+    color: white;
 }
 
 h5 {
-    color: white;
-
+    color: #333333;
 }
 
-#upper-cont {
+.h5-darkmode {
+    color: white;
+}
+
+.upper-cont {
+    background-color: #EEEEEE;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.upper-cont-darkmode {
     background-color: #303030;
     margin-top: 5%;
     padding: 20px;
     border-radius: 10px;
 }
 
-#info-div {
+.info-div {
+    background-color: #DDDDDD;
+    padding: 5%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.info-div-darkmode {
     background-color: #222222;
     padding: 5%;
     border-radius: 10px;
     margin: 10px;
 }
 
-#listener-div {
+.listener-div {
+    background-color: #DDDDDD;
+    padding: 5%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.listener-div-darkmode {
     background-color: #222222;
     padding: 5%;
     border-radius: 10px;
@@ -45,23 +78,52 @@ h5 {
 }
 
 input, select {
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 10px;
+    color: #333333;
+    padding: 10px;
+
+}
+
+.input-darkmode, .select-darkmode {
     background-color: #303030;
     border: none;
     border-radius: 10px;
     color: white;
     padding: 10px;
-
 }
 
 ::placeholder {
     color: #707070;
 }
 
-select {
-    width: 80%;
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-#listener-output {
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+select {
+    width: 80%;
+    padding: 12px;
+}
+
+.listener-output {
+    background-color: #DDDDDD;
+    padding: 12px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.listener-output-darkmode {
     background-color: #222222;
     padding: 12px;
     padding-left: 20px;
@@ -70,6 +132,10 @@ select {
 }
 
 code {
+    color: #333333;
+}
+
+.code-darkmode {
     color: white;
 }
 
@@ -80,8 +146,8 @@ code {
     text-align: end;
 }
 
-#generate-btn {
-    background-color: #a54200;
+.generate-btn {
+    background-color: #0070cb;
     color: white;
     border: none;   
     border-radius: 10px;
@@ -90,12 +156,31 @@ code {
     width: 100%;
 }
 
-#generate-btn:hover {
+.generate-btn-darkmode {
+    background-color: #a50000;
+    color: white;
+    border: none;   
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.generate-btn:hover {
     background-color: #ffffff;
     color: black;
 }
 
-#language-selector {
+.language-selector {
+    background-color: #DDDDDD;
+    text-align: center; 
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+
+.language-selector-darkmode {
     background-color: #222222;
     text-align: center; 
     margin: 10px;
@@ -104,7 +189,7 @@ code {
     margin-bottom: 3%;
 }
 
-#select-bash, #select-python3, #select-php, #select-perl {
+.select-bash, .select-python3, .select-php, .select-perl {
     border: none;   
     border-radius: 10px;
     padding: 10px;
@@ -114,12 +199,31 @@ code {
     transition: 0.3s;
 }
 
-#select-bash:hover, #select-python3:hover, #select-php:hover, #select-perl:hover {
-    background-color: #303030;
+.select-bash-darkmode, .select-python3-darkmode, .select-php-darkmode, .select-perl-darkmode {
+    background-color: #333333;
     color: white;
 }
 
-#shell-output {
+.select-bash:hover, .select-python3:hover, .select-php:hover, .select-perl:hover {
+    background-color: #0070cb;
+    color: white;
+}
+
+.select-bash-darkmode:hover, .select-python3-darkmode:hover, .select-php-darkmode:hover, .select-perl-darkmode:hover {
+    background-color: #a50000;
+    color: white;
+}
+
+.shell-output {
+    background-color: #DDDDDD;
+    padding: 12px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 3%;
+}
+
+.shell-output-darkmode {
     background-color: #222222;
     padding: 12px;
     padding-left: 20px;
