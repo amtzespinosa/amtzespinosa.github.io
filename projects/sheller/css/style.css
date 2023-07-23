@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+body {
+    background-color: #131212;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 3%;
+}
+
+h5 {
+    color: white;
+
+}
+
+#upper-cont {
+    background-color: #303030;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#info-div {
+    background-color: #222222;
+    padding: 5%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#listener-div {
+    background-color: #222222;
+    padding: 5%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#ip{
+    margin: 0 5px 0 0;
+}
+
+#port {
+    margin: 0 0 0 5px;
+}
+
+input, select {
+    background-color: #303030;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+
+}
+
+::placeholder {
+    color: #707070;
+}
+
+select {
+    width: 80%;
+}
+
+#listener-output {
+    background-color: #222222;
+    padding: 12px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+code {
+    color: white;
+}
+
+ #generate-div {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px;
+    text-align: end;
+}
+
+#generate-btn {
+    background-color: #a54200;
+    color: white;
+    border: none;   
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+    width: 100%;
+}
+
+#generate-btn:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+#language-selector {
+    background-color: #222222;
+    text-align: center; 
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+
+#select-bash, #select-python3, #select-php, #select-perl {
+    border: none;   
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+#select-bash:hover, #select-python3:hover, #select-php:hover, #select-perl:hover {
+    background-color: #303030;
+    color: white;
+}
+
+#shell-output {
+    background-color: #222222;
+    padding: 12px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 3%;
+}
