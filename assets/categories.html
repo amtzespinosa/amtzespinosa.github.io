@@ -7,6 +7,32 @@ redirect_from:
   - /categories
 ---
 
+<h2>OSCP</h2>
+
+{% include lang.html %}
+
+{% for post in site.categories.OSCP %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+<h2>Web Hacking</h2>
+
+{% include lang.html %}
+
+{% for post in site.categories.Web %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+<h2>Walkthroughs</h2>
+
+{% include lang.html %}
+
+{% for post in site.categories.Walkthroughs %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+<h2>PicoCTF</h2>
+
 {% include lang.html %}
 
 {% for post in site.categories.PicoCTF %}
