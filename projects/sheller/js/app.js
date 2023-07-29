@@ -11,6 +11,11 @@ checkbox.addEventListener("change", () => {
     var h1 = document.getElementsByTagName("h1");
     h1[0].classList.toggle("h1-darkmode");
 
+    // h3
+
+    var h3 = document.getElementsByTagName("h3");
+    h3[0].classList.toggle("h3-darkmode");
+
     // h5 
 
     var h5 = document.getElementsByTagName("h5");
@@ -54,6 +59,12 @@ checkbox.addEventListener("change", () => {
     var code = document.getElementsByTagName("code");
     code[0].classList.toggle("code-darkmode");
     code[1].classList.toggle("code-darkmode");
+    code[2].classList.toggle("code-darkmode");
+    code[3].classList.toggle("code-darkmode");
+    code[4].classList.toggle("code-darkmode");
+    code[5].classList.toggle("code-darkmode");
+    code[6].classList.toggle("code-darkmode");
+    code[7].classList.toggle("code-darkmode");
 
     // Generate listener button
 
@@ -83,6 +94,32 @@ checkbox.addEventListener("change", () => {
 
     var shellOut = document.getElementById("shell-output");
     shellOut.classList.toggle("shell-output-darkmode");
+
+    // Tabs
+
+    var tab = document.getElementsByClassName("tab");
+    tab[0].classList.toggle("tab-darkmode");
+
+    var tablinks = document.getElementsByClassName("tablinks");
+    tablinks[0].classList.toggle("tablinks-darkmode");
+    tablinks[1].classList.toggle("tablinks-darkmode");
+    tablinks[2].classList.toggle("tablinks-darkmode");
+    tablinks[3].classList.toggle("tablinks-darkmode");
+    tablinks[4].classList.toggle("tablinks-darkmode");
+    tablinks[5].classList.toggle("tablinks-darkmode");
+
+    var tabcontent = document.getElementsByClassName("tabcontent");
+    tabcontent[0].classList.toggle("tabcontent-darkmode");
+    tabcontent[1].classList.toggle("tabcontent-darkmode");
+    tabcontent[2].classList.toggle("tabcontent-darkmode");
+    tabcontent[3].classList.toggle("tabcontent-darkmode");
+    tabcontent[4].classList.toggle("tabcontent-darkmode");
+    tabcontent[5].classList.toggle("tabcontent-darkmode");
+
+    // Footer
+
+    var footer = document.getElementsByClassName("footer");
+    footer[0].classList.toggle("footer-darkmode");
 })
 
 
@@ -170,3 +207,24 @@ function generatePerl(){
 
     }
 }
+
+function openTab(evt, langName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+  
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+  
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+  
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(langName).style.display = "block";
+    evt.currentTarget.className += " active";
+} 

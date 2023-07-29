@@ -231,3 +231,95 @@ code {
     margin: 10px;
     margin-bottom: 3%;
 }
+
+h3 {
+    margin: 2%;
+}
+
+.h3-darkmode {
+    color: #fff;
+}
+
+#int-div {
+    padding: 0px;
+    margin-bottom: 3%;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    background-color: #DDDDDD;
+}
+
+.tab-darkmode {
+    background-color: #222222;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tablinks-darkmode {
+    color: #fff;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #0070cb;
+    color: #fff;
+}
+
+.tab-darkmode button:hover {
+    background-color: #a50000;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #0070cb;
+    color: #fff;
+}
+
+.tab-darkmode button.active {
+    background-color: #a50000;
+    color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    background-color: #DDDDDD;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2%;
+} 
+
+.tabcontent-darkmode {
+    background-color: #222222;
+}
+
+.none {
+    display: none;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer-darkmode {
+    color: #fff;
+}
+
+.footer-darkmode a {
+    color: #a50000;
+}
