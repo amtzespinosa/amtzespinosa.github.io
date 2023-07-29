@@ -127,4 +127,4 @@ File upload vulnerabilities are when a web server allows users to upload files t
 
 OS command injection (also known as shell injection) is a web security vulnerability that allows an attacker to execute arbitrary operating system (OS) commands on the server that is running an application, and typically fully compromise the application and all its data.
 
-By now, that's all for this second week. I think that **PortSwigger's Learning Path** only scratches the surface of Web App Testing so maybe I will need further reading and practice about the topics. Anyway, it's a really good starting point! Check **[my posts about Web App Testing](https://amtzespinosa.github.io/pwned!/#web-apps)** to learn how to exploit all this vulnerabilities.
+By now, that's all for this second week. I think that **PortSwigger's Learning Path** only scratches the surface of Web App Testing so maybe I will need further reading and practice about the topics. Anyway, it's a really good starting point! Check **[my posts about Web App Testing](https://amtzespinosa.github.io/pwned/#web-apps)** to learn how to exploit all this vulnerabilities.
