@@ -20,3 +20,8 @@ It's not a final version as I coded it as a 24h. straight coding challenge. The 
 
 I have based this project on the amazing **[RevShells](https://www.revshells.com/)** that supports way more languages and variants of all type of shells. I just wanted this project to be as simple as possible although I'm thinking of adding more features.
 
+### [Fingerprinter](/projects/fingerprinter/)
+
+**Fingerprinter** is a simple Browser Fingerprinter built using **HTML**, **CSS** and **JavaScript**. 
+
+I have based this project on **[FingerprintJS](https://fingerprintjs.github.io/fingerprintjs//)** but adding some extra features out of the scope of browser fingerprinting as a PoC of how much data can be easily gathered from a client when visiting a website.
