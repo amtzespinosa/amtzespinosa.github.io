@@ -34,7 +34,7 @@ Welcome to week 4 of this OSCP Prep series. This week we will be covering **Expl
 For practice, almost any VM would do the job. Here are the VMs I will be exploiting:
 
 - **[Kioptrix #3]()** 
-- **[Kioptrix #4]()**
+- **[Kioptrix #4](/posts/2023-07-28-kioptrix-4-walkthrough/)**
 - **[FristiLeaks]()**
 
 ## 1. Locating Public Exploits
