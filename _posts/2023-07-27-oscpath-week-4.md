@@ -6,7 +6,7 @@ categories: [OSCP]
 tags: [oscp, learning path]
 ---
 
-
+Welcome to week 4 of this OSCP Prep series. This week we will be covering **Exploits**: where to find them and how to use them. This is just the surface of the world of exploits. I suggest you to further read about this topic as it is present not just on the OSCP exam but out there in the wild as in the Bug Bounty world.
 
 > **DISCLAIMER** 
 >
