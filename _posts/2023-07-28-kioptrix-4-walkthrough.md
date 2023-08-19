@@ -7,7 +7,7 @@ tags: [oscp, ctf, walkthroughs, vulnhub]
 img_path: /assets/img/posts/2023-07-28-kioptrix-4-walkthrough/
 ---
 
-Today I'm hacking into **Kioptrix 1.3**. Or Kioptrix #4. This is one of the many **beginner-friendly OSCP-like** CTFs of Vulnhub. So it's a great starting point for preparing the OSCP tests. If you want to start with the previous level, check my walkthroughs: **[Kioptrix #1](/posts/kioptrix-1-walkthrough)** and **[Kioptrix #2](/posts/kioptrix-2-walkthrough)**.
+Today I'm hacking into **Kioptrix 1.3**. Or Kioptrix #4. This is one of the many **beginner-friendly OSCP-like** CTFs of Vulnhub. So it's a great starting point for preparing the OSCP tests. If you want to start with the previous level, check my walkthroughs: **[Kioptrix #1](/posts/kioptrix-1-walkthrough)**, **[Kioptrix #2](/posts/kioptrix-2-walkthrough)** and **[Kioptrix #3](/posts/kioptrix-3-walkthrough)**.
 
 ## Methodology
 
@@ -20,8 +20,7 @@ Today I'm hacking into **Kioptrix 1.3**. Or Kioptrix #4. This is one of the many
 
 - Netdiscover
 - Nmap
-- Searchsploit
-- Someone's exploit
+- Gobuster
 
 ## Recon
 
