@@ -1,0 +1,41 @@
+.content {
+    margin: 5em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 1em;
+}
+
+p {
+    text-align: justify;
+}
+
+.text {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.black {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.resources {
+    text-align: center;
+    margin: 3em;
+}
+
+.next {
+    text-align: right;
+    width: 80%;
+}
+
+.quote {
+    font-style: italic;
+}
