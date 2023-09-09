@@ -1,5 +1,5 @@
 ---
-title: "OSCPath - Week 2: Web Applications Attacks"
+title: "OSCPath Week 2: Web Applications Attacks"
 author: alex
 date: Sat 15 Jul 10:56:33 CEST 2023
 categories: [OSCP]
