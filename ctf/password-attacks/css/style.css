@@ -12,12 +12,6 @@ p {
     text-align: justify;
 }
 
-.text {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-}
-
 .black {
     font-weight: bold;
 }
@@ -38,4 +32,30 @@ a {
 
 .quote {
     font-style: italic;
+}
+
+@media only screen and (max-width: 1200px) {
+    .text {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .next {
+        text-align: right;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .text {
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+
+    .next {
+        text-align: right;
+        width: 80%;
+    }
 }
