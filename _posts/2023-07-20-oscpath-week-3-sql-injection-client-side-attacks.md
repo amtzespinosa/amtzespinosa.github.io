@@ -1,5 +1,5 @@
 ---
-title: OSCPath - Week 3
+title: "OSCPath - Week 3: SQL Injection and Client-side Attacks"
 author: alex
 date: Thu 20 Jul 10:56:33 CEST 2023
 categories: [OSCP]

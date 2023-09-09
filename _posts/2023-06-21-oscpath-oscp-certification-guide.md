@@ -1,5 +1,5 @@
 ---
-title: My OSCPath
+title: "My OSCPath: OSCP Certification Guide"
 author: alex
 date: Wed 28 Jun 14:19:21 CEST 2023
 categories: [OSCP]
