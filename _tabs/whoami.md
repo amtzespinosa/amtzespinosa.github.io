@@ -47,7 +47,7 @@ You can download my resume in **[pdf](/assets/docs/alejandro_martinez_espinosa_r
 
 - Develop, maintain and modify WordPress plugins source code as needed
 - Ensure websites and plugins are up to date and patched
-- Develop and implement effective SEO strategist
+- Develop and implement effective SEO strategies
 - Write detailed and customer friendly reports with the metrics obtained, errors to solve and guidelines
 
 ## Certifications 
