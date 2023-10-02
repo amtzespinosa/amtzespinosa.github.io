@@ -105,7 +105,7 @@ In addition to this plan, we will be hacking into vulnerable VMs. I don't have a
 
 If you want to check the official OffSec Syllabus for the course to make sure you are covering everything, **[here](https://www.offsec.com/wp-content/uploads/2023/03/pen-200-pwk-syllabus.pdf)** it is!
 
-And I leave you as well the **[Offensive Security - Pentesting with Kali (PWK) pdf](/assets/docs/Offensive_Security_Pentesting_with_Kali_(PWK).pdf)** as a guide of contents!
+And I leave you as well the **[Offensive Security - Pentesting with Kali (PWK) pdf](/assets/docs/OSCP_Course.pdf)** as a guide of contents!
 
 ### **[Week 1](/posts/oscpath-week-1)**
 
