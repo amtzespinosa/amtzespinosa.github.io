@@ -1,7 +1,7 @@
 ---
 title: "OSCPath Week 7: Port Redirection and SSH Tunneling"
 author: alex
-date: Thu  14 Sep 19:05:19 CEST 2023
+date: Thu  21 Sep 19:05:19 CEST 2023
 categories: [OSCP]
 tags: [oscp, learning path]
 img_path: /assets/img/posts/2023-09-07-oscpath-week-5/
