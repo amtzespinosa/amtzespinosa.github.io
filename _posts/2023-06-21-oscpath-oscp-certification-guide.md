@@ -107,7 +107,7 @@ If you want to check the official OffSec Syllabus for the course to make sure yo
 
 And I leave you as well the **[Offensive Security - Pentesting with Kali (PWK) pdf](/assets/docs/OSCP_Course.pdf)** as a guide of contents!
 
-### **[Week 1](/posts/oscpath-week-1)**
+### **[Week 1](/posts/oscpath-week-1-report-writing-information-gathering-enumeration-vulnerability-scanning/)**
 
 - [x] Report Writing for Penetration Testers
 - [x] Information Gathering and Enumeration
@@ -115,36 +115,36 @@ And I leave you as well the **[Offensive Security - Pentesting with Kali (PWK) p
 
 I have omitted the first three topics of this week as they should have been covered already following the **[Considerations](#considerations)** listed above. OffSec proposes some exercises to practice all the theory learnt in those modules - and sure we will do them. I have listed all the resources used to learn the topics and practice them in the full article covering this week **[here.](/posts/oscpath-week-1)**
 
-### **[Week 2](/posts/oscpath-week-2)**
+### **[Week 2](/posts/oscpath-week-2-web-application-attacks/)**
 
 - [x] Introduction to Web Application Attacks
 - [x] Common Web Application Attacks
 
 I have listed all the resources used to learn the topics and practice them in the full article covering this week **[here.](/posts/oscpath-week-2)**
 
-### **[Week 3]()**
+### **[Week 3](/posts/oscpath-week-3-sql-injection-client-side-attacks/)**
 
 - [x] SQL Injection Attacks
 - [x] Client-side Attacks
 
-### **[Week 4]()**
+### **[Week 4](/posts/oscpath-week-4-locating-fixing-public-exploits/)**
 
 - [x] Locating Public Exploits
 - [x] Fixing Exploits
 
-### **[Week 5]()**
+### **[Week 5](/posts/oscpath-week-5-antivirus-evasion-password-attacks/)**
 
 - [x] Antivirus Evasion
 - [x] Password Attacks
 
-### **[Week 6]()**
+### **[Week 6](/posts/oscpath-week-6-windows-linux-privilege-escalation/)**
 
-- [ ] Windows Privilege Escalation
-- [ ] Linux Privilege Escalation
+- [x] Windows Privilege Escalation
+- [x] Linux Privilege Escalation
 
-### **[Week 7]()**
+### **[Week 7](/posts/oscpath-week-7-port-redirection-ssh-tunneling/)**
 
-- [ ] Port Redirection and SSH Tunneling
+- [x] Port Redirection and SSH Tunneling
 
 ### **[Week 8]()**
 
