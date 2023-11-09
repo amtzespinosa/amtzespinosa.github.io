@@ -20,7 +20,7 @@ timezone: Europe/Madrid
 
 title: Alex's pwnlab! # the main title
 
-tagline: Embrace the art of offensive security. # it will display as the sub-title
+tagline: Embrace the art of offensive security. <a href="">#RedTeam</a> # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Embrace the offensive side of cybersecurity with Red Teaming! Learn the tactics, tools, and threats used by attackers. Become one to protect against!
