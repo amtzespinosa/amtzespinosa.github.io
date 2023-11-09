@@ -1,6 +1,8 @@
 ---
 ---
 
+$tab-count: {{ site.tabs | size | plus: 1 }}; 
+
 @import '{{ site.theme }}';
 
 /* append your custom style below */
@@ -26,4 +28,7 @@
 .fa-envelope:hover {
     color: #ff0000 !important;
 }
- 
+
+#main-wrapper {
+  background-color: black;
+}
