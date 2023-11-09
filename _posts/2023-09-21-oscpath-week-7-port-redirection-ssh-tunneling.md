@@ -7,7 +7,7 @@ tags: [oscp, learning path]
 img_path: /assets/img/posts/2023-09-07-oscpath-week-5/
 ---
 
-Welcome to week 6 of this OSCP Prep series. This week we will be covering **port redirection and SSH tunneling** - two essential techniques in the realm of network security and penetration testing. This post delves deeply into the intricacies of port forwarding using tools like **Socat** and **SSH**, covering various types of port forwarding, and exploring tools such as **ssh.exe**, **Plink**, and **Netsh** to provide a comprehensive understanding of these techniques.
+Welcome to week 7 of this OSCP Prep series. This week we will be covering **port redirection and SSH tunneling** - two essential techniques in the realm of network security and penetration testing. This post delves deeply into the intricacies of port forwarding using tools like **Socat** and **SSH**, covering various types of port forwarding, and exploring tools such as **ssh.exe**, **Plink**, and **Netsh** to provide a comprehensive understanding of these techniques.
 
 > **DISCLAIMER** 
 >
