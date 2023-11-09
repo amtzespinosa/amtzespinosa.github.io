@@ -11,8 +11,8 @@
 #   icon: "fab fa-twitter"
 
 - type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  icon: "fa-regular fa-envelope"
+  noblank: false # open link in new tab
 
 # type: rss
 # icon: "fas fa-rss"
