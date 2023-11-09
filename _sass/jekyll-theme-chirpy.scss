@@ -17,3 +17,25 @@
 @import 'layout/archives';
 @import 'layout/categories';
 @import 'layout/category-tag';
+
+.rounded-circle {
+    width: 180px !important;
+    height: 180px !important;
+}
+
+#sidebar #avatar img {
+    width: 180px !important;
+    height: 180px !important;
+}
+
+.site-subtitle a {
+    color: #0153ab !important;
+}
+
+.fa-linkedin:hover {
+    color: #0153ab !important;
+}
+
+.fa-envelope:hover {
+    color: #ff0000 !important;
+}
