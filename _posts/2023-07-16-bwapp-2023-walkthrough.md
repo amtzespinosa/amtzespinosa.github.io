@@ -12,7 +12,7 @@ image:
 
 **bWAPP**, or *buggy web application*, is a free and open source deliberately insecure web application, something similar to **[DVWA](https://github.com/digininja/DVWA)**. bWAPP helps us prepare to conduct successful penetration testing and ethical hacking tasks.
 
-**bWAPP** has over 100 web vulnerabilities and it covers all major known web bugs, including all risks from the **[OWASP Top 10 project](https://owasp.org/www-project-top-ten/)** so it's perfect to help us prepare the **web app testing part** of the **[OSCP](/posts/oscpath/)**. 
+**bWAPP** has over 100 web vulnerabilities and it covers all major known web bugs, including all risks from the **[OWASP Top 10 project](https://owasp.org/www-project-top-ten/)** so it's perfect to help us prepare the **web app testing part** of the **[OSCP](/posts/oscpath-oscp-certification-guide/)**. 
 
 **bWAPP** is a **PHP** application that uses a **MySQL** database. It can be hosted on Linux/Windows or another possibility is to download **[bee-box]()**, a custom Linux VM pre-installed with bWAPP.
 
