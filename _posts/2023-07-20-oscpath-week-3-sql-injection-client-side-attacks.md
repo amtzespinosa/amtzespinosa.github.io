@@ -69,7 +69,7 @@ First we need to know if any SQL vulnerability is present. We can do so by submi
 - Submitting **payloads designed to trigger time delays** when executed within a SQL query, and looking for differences in the time taken to respond.
 - Submitting **OAST payloads** designed to trigger an out-of-band network interaction when executed within a SQL query, and monitoring for any resulting interactions.
 
-Once we know thay a vulnerability exists, we can start performing some exploitation. I would recommend you to cover both the PortSwigger's labs and the OSCP manual I mentioned in **[My OSCPath post](/posts/oscpath)**.
+Once we know thay a vulnerability exists, we can start performing some exploitation. I would recommend you to cover both the PortSwigger's labs and the OSCP manual I mentioned in **[My OSCPath post](/posts/oscpath-oscp-certification-guide/)**.
 
 According to the OSCP Syllabus we should understand:
 
