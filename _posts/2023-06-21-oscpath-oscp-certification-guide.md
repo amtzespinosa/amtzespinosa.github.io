@@ -113,14 +113,12 @@ And I leave you as well the **[Offensive Security - Pentesting with Kali (PWK) p
 - [x] Information Gathering and Enumeration
 - [x] Vulnerability Scanning 
 
-I have omitted the first three topics of this week as they should have been covered already following the **[Considerations](#considerations)** listed above. OffSec proposes some exercises to practice all the theory learnt in those modules - and sure we will do them. I have listed all the resources used to learn the topics and practice them in the full article covering this week **[here.](/posts/oscpath-week-1)**
+I have omitted the first three topics of this week as they should have been covered already following the **[Considerations](#considerations)** listed above. OffSec proposes some exercises to practice all the theory learnt in those modules - and sure we will do them.
 
 ### **[Week 2](/posts/oscpath-week-2-web-application-attacks/)**
 
 - [x] Introduction to Web Application Attacks
 - [x] Common Web Application Attacks
-
-I have listed all the resources used to learn the topics and practice them in the full article covering this week **[here.](/posts/oscpath-week-2)**
 
 ### **[Week 3](/posts/oscpath-week-3-sql-injection-client-side-attacks/)**
 
