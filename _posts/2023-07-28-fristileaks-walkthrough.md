@@ -4,7 +4,7 @@ author: alex
 date: Fri 28 Jul 19:15:48 CEST 2023
 categories: [Walkthroughs]
 tags: [oscp, ctf, walkthroughs, vulnhub]
-img_path: /assets/img/posts/2023-07-08-fristileaks-walkthrough/
+img_path: /assets/img/posts/2023-07-28-fristileaks-walkthrough/
 ---
 
 Today I'm hacking into **Fristileaks**. This is one of the many **beginner-friendly OSCP-like** CTFs of Vulnhub. So it's a great starting point for preparing the OSCP tests.
