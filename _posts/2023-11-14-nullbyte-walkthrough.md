@@ -4,7 +4,7 @@ author: alex
 date: Tue 14 Nov 18:15:48 CEST 2023
 categories: [Walkthroughs]
 tags: [oscp, ctf, walkthroughs, vulnhub]
-img_path: /assets/img/2023-11-14-nullbyte-walkthrough/
+img_path: /assets/img/posts/2023-11-14-nullbyte-walkthrough/
 ---
 
 Today I'm hacking into **NullByte**! This is one of the many **beginner-friendly OSCP-like** CTFs of Vulnhub. So it's a great starting point for preparing the OSCP tests.
