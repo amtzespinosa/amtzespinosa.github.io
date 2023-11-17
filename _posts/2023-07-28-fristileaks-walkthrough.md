@@ -11,7 +11,7 @@ Today I'm hacking into **Fristileaks**. This is one of the many **beginner-frien
 
 > SETUP
 > 
-> The setup is a bit tricky. I am using **VirtualBox** and in order to get an IP for the VM, I had to manually change the MAC address of the machine to 080027A5A676.
+> The setup is a bit tricky. I am using **VirtualBox**, and in order to get an IP for the VM, I had to manually change the MAC address of the machine to 080027A5A676.
 {: .prompt-tip }
 
 ## Methodology
