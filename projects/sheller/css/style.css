@@ -323,3 +323,56 @@ h3 {
 .footer-darkmode a {
     color: #a50000;
 }
+
+@media only screen and (max-width: 800px) {
+    .upper-cont {
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+
+    .info-div {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    #ip {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 5%;
+    }
+
+    #port {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .listener-div {
+        width: 100%;
+    }
+
+    .listener-output {
+        width: 100%;
+    }
+
+    #generate-div {
+        width: 100%;
+    }
+
+    .language-selector {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .select {
+        margin: 1%;
+    }
+
+    .shell-output {
+        width: 100%;
+    }
+
+    #int-div {
+        width: 100%;
+    }
+
+}
