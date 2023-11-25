@@ -54,6 +54,7 @@ You can download my resume in **[pdf](/assets/docs/alejandro_martinez_espinosa_r
 
 #### Pentesting
 
+- **OSCP** / Offensive Security Certified Professional
 - **CCST Cybersecurity** / CISCO Certified Technician
 - **CEH** / EC Council Certified Ethical Hacker
 - **Practical Ethical Hacking** / TCM Security
