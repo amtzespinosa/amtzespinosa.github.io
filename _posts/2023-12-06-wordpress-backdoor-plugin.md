@@ -390,10 +390,10 @@ I leave the domain up to you so I will just cover the template part and this is 
 
 > **[Phishing email](/assets/phishing/wordpress-backdoor/email.html){:target="_blank"}**
 
-![Phishing email](/8.png)
-
 This is just a simple html template mimicking a WordPress email. Now we can try to send it via email to ourselves to check if it's fine once emailed.
 **Sure it is!**
+
+![Phishing email](/8.png)
 
 ## Making a mailing list
 
