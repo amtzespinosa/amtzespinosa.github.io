@@ -405,7 +405,7 @@ I wouldn't call this a spear phishing campaign due to the amount of people out t
 
 Easy, Google it. Here's a website that will serve our pupose: **[Mix Node](https://www.mixnode.com/)**. I pretty sure that not all the existing WordPress sites are listed there but hey, it's **a list of almost 3.5 Million WordPress sites**. I believe we can work with it.
 
-**[Here]()** you can download the list in `txt` format.
+**[Here](https://www.mixnode.com/download-results?query_id=bf362fe1593316e1bd&expires=1702336467&signature=eea1bdb3440ed2131d59a6f5f9f5c083)** you can download the list in `csv` format. You have to convert it to `txt` before using it in the next step.
 
 But we are delivering the campaign through email so we need emails, not websites! And here's where scraping gets into play.
 
