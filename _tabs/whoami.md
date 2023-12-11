@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-info-circle
-order: 6
+order: 7
 ---
 
 # Hi there, I'm Alex!
@@ -47,7 +47,7 @@ You can download my resume in **[pdf](/assets/docs/alejandro_martinez_espinosa_r
 
 - Develop, maintain and modify WordPress plugins source code as needed
 - Ensure websites and plugins are up to date and patched
-- Develop and implement effective SEO strategies
+- Develop and implement effective SEO strategist
 - Write detailed and customer friendly reports with the metrics obtained, errors to solve and guidelines
 
 ## Certifications 
@@ -80,6 +80,5 @@ You can download my resume in **[pdf](/assets/docs/alejandro_martinez_espinosa_r
 <kbd>Pentesting</kbd> <kbd>Red Teaming</kbd> <kbd>Social Engineering</kbd> <kbd>OWASP</kbd> <kbd>OSINT</kbd> <kbd>OpSec</kbd>
 <kbd>PHP</kbd> <kbd>JavaScript</kbd> <kbd>Bash</kbd> <kbd>C++</kbd> <kbd>HTML</kbd> <kbd>CSS</kbd>
 <kbd>VPN</kbd> <kbd>Network Configuration & Monitoring</kbd> <kbd>Firewalls</kbd> <kbd>Linux</kbd> <kbd>Windows</kbd> <kbd>Unorthodox Thinking</kbd>
-
 
 

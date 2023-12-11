@@ -57,6 +57,7 @@ order: 4
     #modal-1:hover, #modal-2:hover, #modal-3:hover, #modal-4:hover {
         cursor: pointer;
     }
+
     p {
         margin: 0px;
     }
@@ -86,6 +87,7 @@ order: 4
     .button {
         cursor: pointer;
     }
+
 </style>
 
 <h1 class="new-title">CTF and Challenges</h1>
@@ -107,7 +109,7 @@ order: 4
 <h2>Quick Challenges</h2>
 <br>
 
-<div class="button" data-modal="modal-1" style="align-items: baseline; display: inline-block; box-shadow: 2px 2px 8px 4px #d3d3d388; border-radius: 15px; padding: 4%; margin-right: 15px; width: 47%; height: 200px;">
+<div class="button" data-modal="modal-1" style="align-items: baseline; display: inline-block; box-shadow: 2px 2px 8px 4px #91919188; border-radius: 15px; padding: 4%; margin-right: 15px; width: 47%; height: 200px;">
     <div>
         <p>Cryptography</p> 
         <p style="font-size: 30px">Enigma</p>
@@ -159,7 +161,7 @@ order: 4
     </div>
 </div>
 
-<div class="button" data-modal="modal-2" style="display: inline-block; box-shadow: 2px 2px 8px 4px #d3d3d388; border-radius: 15px; padding:  4%; margin-left: 15px; width: 47%; height: 200px;">
+<div class="button" data-modal="modal-2" style="display: inline-block; box-shadow: 2px 2px 8px 4px #91919188; border-radius: 15px; padding:  4%; margin-left: 15px; width: 47%; height: 200px;">
     <div>
         <p>Low Level Languages</p>
         <p style="font-size: 30px">Evil deeds</p>
@@ -208,7 +210,7 @@ order: 4
 
 <br><br>
 
-<div class="button" data-modal="modal-3" style="display: inline-block; box-shadow: 2px 2px 8px 4px #d3d3d388; border-radius: 15px; padding:  4%; margin-right: 15px; width: 47%; height: 200px;">
+<div class="button" data-modal="modal-3" style="display: inline-block; box-shadow: 2px 2px 8px 4px #91919188; border-radius: 15px; padding:  4%; margin-right: 15px; width: 47%; height: 200px;">
     <div>
         <p>Esolangs</p>
         <p style="font-size: 30px">MMadness</p>
@@ -257,7 +259,7 @@ order: 4
     </div>
 </div>
 
-<div class="button" data-modal="modal-4" style="display: inline-block; box-shadow: 2px 2px 8px 4px #d3d3d388; border-radius: 15px; padding:  4%; margin-left: 15px; width: 47%; height: 200px;">
+<div class="button" data-modal="modal-4" style="display: inline-block; box-shadow: 2px 2px 8px 4px #91919188; border-radius: 15px; padding:  4%; margin-left: 15px; width: 47%; height: 200px;">
     <div>
         <p>Reverse Engineering</p>
         <p style="font-size: 30px">esreveR</p>
@@ -377,3 +379,36 @@ order: 4
         }
     }
 </script>
+
+<br><br>
+<div style="display: inline-flex; box-shadow: 2px 2px 8px 4px #91919188; border-radius: 15px; padding: 10px; background-color: #d8d8d8; width: 100%;">
+
+    <img src="../assets/img/pages/monero.png" alt="Monero" class="monero" style="height:120px; width:120px; vertical-align: middle; margin: 20px; margin-left: 10px;">
+
+    <div style="width:80%; margin: 10px;">
+        <p style="font-size: 25px; vertical-align: auto; color: #000000b9;"><b>Support my content!</b></p>
+        <p>
+            <b>Monero wallet:</b>
+            <a href="../assets/img/pages/donate.png">8AZz1VxWDQr1oQ3bxgKZHF2GzJQjFjW1K4BY4h3JmnLyQ9wpt1MADKNVuDAnyN814sZfahkpd4zNxKe2bqLPjW9XRjmExiQ</a>
+        </p>
+    </div>
+</div>
+
+<style>
+    @media only screen and (max-width: 800px) {
+        .button {
+            width: 100% !important;
+            margin: 0% !important;
+            margin-bottom: 5% !important;
+        }
+
+        .monero {
+            display: none;
+        }
+
+        .modal-content {
+            width: 100%; /* Could be more or less, depending on screen size */
+            height: 100%; /* Full height */
+        }
+    }
+</style>

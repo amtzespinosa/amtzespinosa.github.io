@@ -25,3 +25,17 @@ I have based this project on **[FingerprintJS](https://fingerprintjs.github.io/f
 ### <a href="https://github.com/amtzespinosa/python-hacking-tools">Python Hacking Tools</a>
 
 One of the most valuable skills as a Red Team Operator is the ability to build your own tools. During my learning path to the PCEP and later the PCAP I started coding my own Python hacking toolkit. I keep adding tools to this project as I code them - generally during my job as a red teamer.
+
+<br>
+<div style="display: inline-flex; box-shadow: 2px 2px 8px 4px #91919188; border-radius: 15px; padding: 10px; background-color: #d8d8d8; width: 100%;">
+
+    <img src="../assets/img/pages/monero.png" alt="Monero" class="monero" style="height:120px; width:120px; vertical-align: middle; margin: 20px; margin-left: 10px;">
+
+    <div style="width:80%; margin: 10px;">
+        <p style="font-size: 25px; vertical-align: auto; color: #000000b9;"><b>Support my content!</b></p>
+        <p>
+            <b>Monero wallet:</b>
+            <a href="../assets/img/pages/donate.png">8AZz1VxWDQr1oQ3bxgKZHF2GzJQjFjW1K4BY4h3JmnLyQ9wpt1MADKNVuDAnyN814sZfahkpd4zNxKe2bqLPjW9XRjmExiQ</a>
+        </p>
+    </div>
+</div>
