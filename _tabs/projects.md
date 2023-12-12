@@ -39,3 +39,9 @@ One of the most valuable skills as a Red Team Operator is the ability to build y
         </p>
     </div>
 </div>
+
+<style>
+    .monero {
+        display: none;
+    }
+</style>

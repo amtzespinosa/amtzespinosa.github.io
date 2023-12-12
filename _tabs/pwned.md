@@ -62,3 +62,8 @@ Here's a list of all the VMs I have compromised so far! The difficulty is the on
         </p>
     </div>
 </div>
+<style>
+    .monero {
+        display: none;
+    }
+</style>
