@@ -56,7 +56,7 @@ You can download my resume in **[pdf](/assets/docs/alejandro_martinez_espinosa_r
 
 - **OSCP** / Offensive Security Certified Professional
 - **CCST Cybersecurity** / CISCO Certified Technician
-- **CEH** / EC Council Certified Ethical Hacker
+- **Security+** / CompTIA
 - **Practical Ethical Hacking** / TCM Security
 
 #### Programming
@@ -66,12 +66,12 @@ You can download my resume in **[pdf](/assets/docs/alejandro_martinez_espinosa_r
 
 #### Networking 
 
-- **CCST Networking** / CISCO Certified Technician
+- **CCNA** / CISCO Certified Network Associate
 
 #### Other
 
 - **OSINT** / TCM Security
-- **CompTIA A+** / IT Support
+- **A+** / CompTIA
 - **CS50** / Introduction to Computer Science
 - **Negociation** / University of Michigan Successful Negotiations
 
