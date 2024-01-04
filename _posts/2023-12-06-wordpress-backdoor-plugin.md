@@ -403,7 +403,7 @@ I wouldn't call this a spear phishing campaign due to the amount of people out t
 
 ### How to know what sites run WordPress
 
-Easy, Google it. Here's a website that will serve our pupose: **[Mix Node](https://www.mixnode.com/)**. I pretty sure that not all the existing WordPress sites are listed there but hey, it's **a list of almost 3.5 Million WordPress sites**. I believe we can work with it.
+Easy, Google it. Here's a website that will serve our pupose: **[Mix Node](https://www.mixnode.com/)**. I'm pretty sure that not all the existing WordPress sites are listed there but hey, it's **a list of almost 3.5 Million WordPress sites**. I believe we can work with it.
 
 **[Here](https://www.mixnode.com/download-results?query_id=bf362fe1593316e1bd&expires=1702336467&signature=eea1bdb3440ed2131d59a6f5f9f5c083)** you can download the list in `csv` format. You have to convert it to `txt` before using it in the next step.
 
@@ -415,7 +415,7 @@ We can do this in several ways. But as we want to be real hackers, let's craft o
 
 **[Here](/assets/phishing/wordpress-backdoor/emailharvester.py)** you can download the script. 
 
-Apart from not finding all the emails, it will fin "emails" that are not actual emails like `wght@400`, `wght@300` or `1@2x.png`. You may guess why it confuses the script. Anyway, we will get a bunch of potential emails so let's keep moving on!
+Apart from not finding all the emails, it will find "emails" that are not actual emails like `wght@400`, `wght@300` or `1@2x.png`. You may guess why it confuses the script. Anyway, we will get a bunch of potential emails so let's keep moving on!
 
 ## Launch and deliver
 
