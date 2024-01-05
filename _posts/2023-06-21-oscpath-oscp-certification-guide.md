@@ -146,8 +146,8 @@ I have omitted the first three topics of this week as they should have been cove
 
 ### **[Week 8]()**
 
-- [ ] Tunneling Through Deep Packet Inspection
-- [ ] The Metasploit Framework
+- [x] Tunneling Through Deep Packet Inspection
+- [x] The Metasploit Framework
 
 ### **[Week 9]()**
 
