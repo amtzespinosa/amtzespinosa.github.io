@@ -54,19 +54,24 @@ You can download my resume in **[pdf](/assets/docs/alejandro_martinez_espinosa_r
 
 #### Pentesting
 
-- **OSCP** / Offensive Security Certified Professional
-- **CCST Cybersecurity** / CISCO Certified Technician
-- **Security+** / CompTIA
-- **Practical Ethical Hacking** / TCM Security
+- **OSCP** - OffSec, 2023
+- **CEH** - EC-Council, 2021
+- **CISCO** Ethical Hacker - CISCO, 2024
+- **CISCO** Certified Support Technician (CCST) Cybersecurity - CISCO, 2022
+- **Security+** - CompTIA, 2020
+- **Practical Ethical Hacking** - TCM Security, 2023
+
+#### Networking 
+
+- **CCNA** / CISCO Certified Network Associate
+
+#### Cloud
+- **AWS Cloud Practitioner** - AWS, 2024
 
 #### Programming
 
 - **PCAP** / Certified Associate in Python Programming
 - **SQL** / SQL and Relational Databases
-
-#### Networking 
-
-- **CCNA** / CISCO Certified Network Associate
 
 #### Other
 
