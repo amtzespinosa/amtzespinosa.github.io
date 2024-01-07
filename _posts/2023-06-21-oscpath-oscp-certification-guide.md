@@ -4,7 +4,6 @@ author: alex
 date: Wed 28 Jun 14:19:21 CEST 2023
 categories: [OSCP]
 tags: [oscp, learning path]
-pin: true
 img_path: /assets/img/posts/2023-06-21-oscpath/
 image:
   path: oscp.png
