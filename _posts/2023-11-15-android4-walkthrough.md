@@ -5,7 +5,7 @@ date: Wed 15 Nov 14:15:48 CEST 2023
 categories: [Walkthroughs]
 tags: [oscp, ctf, walkthroughs, vulnhub]
 image:
-  path: /assets/img/android.png
+  path: /assets/img/posts/android.png
   alt: Android Logo.
 ---
 
