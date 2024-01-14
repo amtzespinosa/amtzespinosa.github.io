@@ -4,6 +4,15 @@ icon: fa fa-code
 order: 2
 ---
 
+### <a href="https://github.com/amtzespinosa/wpyscan">WPyScan</a>
+
+A tool developed in Python for enumerating and scanning **WordPress** websites. It is an easy-to-use tool that can be run from the command line. **WPyScan** can enumerate and find any vulnerability associated with **version**, **theme** and **plugins** installed.
+- **FREE UNLIMITED** API queries
+- **WordFence** WordPress Vulnerability Database
+- **Brute Force** enumeration available for almost any check
+- **WAF Bypass** with random user agents by default
+- **Measures for CAPTCHA avoidance**
+
 ### <a href="https://github.com/amtzespinosa/passman">#passman</a>
 
 **#passman** is a password generator and manager built using Python and SQLite3. It has a nice GUI made with **Tkinter** and  **CustomTkinter**.
