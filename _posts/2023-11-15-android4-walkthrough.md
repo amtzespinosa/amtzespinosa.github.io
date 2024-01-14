@@ -4,6 +4,9 @@ author: alex
 date: Wed 15 Nov 14:15:48 CEST 2023
 categories: [Walkthroughs]
 tags: [oscp, ctf, walkthroughs, vulnhub]
+image:
+  path: /assets/img/android.png
+  alt: Android Logo.
 ---
 
 This is going to be a quick one - today I'm hacking into **Android4**! It is an Android-based VM you can compromise in a couple of simple steps using **ADB** or **PhoneSploit**. It is a good VM to start with **ADB**.
