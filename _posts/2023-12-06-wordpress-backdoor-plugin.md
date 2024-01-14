@@ -5,6 +5,9 @@ date: Wed 6 Dec 12:45:46 CEST 2023
 categories: [WordPress]
 tags: [wordpress, backdoor, command & control]
 img_path: /assets/img/posts/2023-12-06-wordpress-backdoor-plugin/
+image:
+  path: /assets/img/wpphishing.png
+  alt: WordPress Phishing.
 ---
 
 I have recently read a **[post](https://www.bleepingcomputer.com/news/security/fake-wordpress-security-advisory-pushes-backdoor-plugin/)** stating that WordPress administrators have been emailed fake WordPress security advisories for a fictitious vulnerability tracked as **CVE-2023-45124** to infect sites with a malicious plugin. A few months ago I posted on my GitHub a similar way to compromise WordPress websites so I decided to take that post a bit further and mimic the technique used by this threat actors.
