@@ -6,7 +6,7 @@ categories: [WordPress]
 tags: [wordpress, backdoor, command & control]
 img_path: /assets/img/posts/2023-12-06-wordpress-backdoor-plugin/
 image:
-  path: /assets/img/wpphishing.png
+  path: /assets/img/posts/wpphishing.png
   alt: WordPress Phishing.
 ---
 
