@@ -1,10 +1,13 @@
 ---
-title: Raven 1
+title: Raven 1 Walkthrough
 author: alex
 date: Tue 23 Jan 11:15:48 CEST 2024
 categories: [Walkthroughs]
 tags: [oscp, ctf, walkthroughs, vulnhub]
 img_path: /assets/img/posts/2024-01-23-raven-1-walkthrough/
+image:
+  path: VirtualBox_Kali_23_01_2024_12_30_26.png
+  alt: Raven Security
 ---
 
 Today I'm hacking into **Raven 1**. This VM is a **WordPress** website that we will be taking over through **MySQL**.
