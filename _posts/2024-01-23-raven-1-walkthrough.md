@@ -128,6 +128,8 @@ define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 ```
 
+## Exploitation
+
 So, let's run MySQL to try to get some creds! `mysql -u root -p` and when prompted for a password: `R@v3nSecurity`. Once inside the console, let's see the databases:
 
 ```bash
