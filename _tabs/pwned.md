@@ -12,11 +12,15 @@ Here's a list of all the VMs I have compromised so far! The difficulty is the on
 |:---|:-------------------------------------------------------------|:----------------|:---------------|:---------------------------------:|:-----------------------------------------------------------------------|
 | 1. | **[Kioptrix #1](/posts/kioptrix-1-walkthrough/)**            | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/kioptrix-level-1-1,22/)**    |
 | 2. | **[Kioptrix #2](/posts/kioptrix-2-walkthrough/)**            | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/kioptrix-level-11-2,23/)**   |
-| 1. | **[Kioptrix #3](/posts/kioptrix-3-walkthrough/)**            | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/kioptrix-level-12-3,24/)**    |
-| 2. | **[Kioptrix #4](/posts/kioptrix-4-walkthrough/)**            | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/kioptrix-level-13-4,25/)**   |
-| 3. | **[Tr0ll: 1](/posts/tr0ll-walkthrough/)**                    | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/tr0ll-1,100/)**              |
-| 4. | **[Lord Of The Root](https://github.com/amtzespinosa/lord-of-the-root-walkthrough)** | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/lord-of-the-root-101,129/)** |
-| 5. | **[Stapler: 1](/posts/stapler-walkthrough/)**                | Linux           | Easy-Medium    |  | **[Vulnhub](https://www.vulnhub.com/entry/stapler-1,150/)**            |
+| 3. | **[Kioptrix #3](/posts/kioptrix-3-walkthrough/)**            | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/kioptrix-level-12-3,24/)**    |
+| 4. | **[Kioptrix #4](/posts/kioptrix-4-walkthrough/)**            | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/kioptrix-level-13-4,25/)**   |
+| 5. | **[Tr0ll: 1](/posts/tr0ll-walkthrough/)**                    | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/tr0ll-1,100/)**              |
+| 6. | **[Lord Of The Root](https://github.com/amtzespinosa/lord-of-the-root-walkthrough)** | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/lord-of-the-root-101,129/)** |
+| 7. | **[Stapler: 1](/posts/stapler-walkthrough/)**                | Linux           | Easy-Medium    |  | **[Vulnhub](https://www.vulnhub.com/entry/stapler-1,150/)**            |
+| 8. | **[Fristileaks](/posts/fristileaks-walkthrough/)**           | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/fristileaks-13,133/)**            |
+| 9. | **[NullByte](/posts/nullbyte-walkthrough/)**                 | Linux           | Easy           |  | **[Vulnhub](https://www.vulnhub.com/entry/nullbyte-1,126/)**            |
+| 10.| **[Android4](/posts/android4-walkthrough/)**                 | Android         | Very easy      |  | **[Vulnhub](https://www.vulnhub.com/entry/android4-1,233/)**            |
+| 11.| **[Raven: 1](/posts/raven-1-walkthrough/)**                  |WordPress & MySQL| Medium         |  | **[Vulnhub](https://www.vulnhub.com/entry/raven-1,256/)**            |
 
 ## Web Apps
 
