@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://wallpapers.com/images/featured/starbucks-ack1avygrxnhaxjq.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  flex-direction: column;
+  overflow: hidden;
+}
+
+section.container {
+  max-width: 60%;
+  min-height: 400px;
+  max-height: 60%;
+  background-color: #ffffffd2;
+  padding: 30px;
+  animation: FadeBottom 1s ease;
+}
+
+@keyframes FadeBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  25% {
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes FadeTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  25% {
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+small#copyright {
+  margin-top: 35px;
+}
+
+.text-muted {
+  color: #fff !important;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.form-btn {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.form-btn button {
+  border-radius: 5px;
+  width: 30%;
+  padding: 8px 10px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #008248;
+  font-size: 15px;
+  transition: all 0.3s ease-in;
+}
+
+.form-btn button:hover {
+  background-color: #029653;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+
+.form-head {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-head h1 {
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-head h1:hover {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: FadeTop 1s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.text-muted {
+  color: #fff !important;
+  font-size: 12px;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 5px;
+  border-color: #008248;
+  font-size: 15px;
+  width: 30%;
+  margin: auto;
+}
+
+#lang {
+  text-align: left !important;
+  border-color: #008248;
+  border-radius: 5px;
+  padding: 5px;
+  width: 25%;
+  color: #008248;
+  margin-bottom: 10px;
+}
+
+.lang-select {
+  text-align: end;
+  width: 60%;
+}
+
+a {
+  margin: 10px;
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+.asist {
+  margin: 10px;
+  text-align: end;
+  width: 60%;
+}

