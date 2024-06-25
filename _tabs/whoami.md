@@ -15,16 +15,14 @@ I'm a proactive **Cybersecurity and OSINT professional** with a focus and backgr
 - Generally interested in cybersecurity, pentesting, red teaming, OSINT, networking, python, and heavy metal
 - Used to be a web developer but I started focusing on other things like web app security, vulnerability exploiting, reverse engineering and so on...
 
-You can download my resume in **[pdf](/assets/docs/alejandro_martinez_espinosa_resume.pdf)** format.
-
 ---
 
 ## Experience
 
-#### Freelance Pentester
+#### Freelance Pentester / Red Team Operator
 
-**Position:** Red Team Operator<br>
-**Period:** February 2022 - Present
+**Position:** Senior Pentester / Red Team Leader<br>
+**Period:** February 2018 - Present
 
 - Propose, plan, and execute Red Team operations based on realistic threats to the organization
 - Detect and exploit vulnerabilities and attack vectors
@@ -32,9 +30,20 @@ You can download my resume in **[pdf](/assets/docs/alejandro_martinez_espinosa_r
 - Implement APT techniques such as backdoors for command and control using open source and custom frameworks 
 - Write detailed reports covering the goals and outcomes of the team
 
+#### OSINT Specialist
+
+**Position:** Freelance<br>
+**Period:** February 2018 - Present
+
+- Collection and analysis of open-source information to identify and mitigate threats.
+- Utilization of OSINT tools such as Maltego, SpiderFoot, and Shodan to conduct in-depth investigations.
+- Development of advanced search techniques to extract valuable information from the web and social networks.
+- Collaboration with security teams to integrate OSINT data into operational security strategies.
+- Writing detailed reports with findings and recommendations for risk mitigation.
+
 #### Special Forces Operator
 
-**Period:** January 2020 - January 2023
+**Period:** January 2021 - May 2024
 
 - Plan and ensure perimetral security measures in accordance with policies and guidelines
 - Collect data through intelligence and counterintelligence techniques
