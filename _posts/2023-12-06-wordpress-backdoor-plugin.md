@@ -374,6 +374,11 @@ I have had so much fun setting up the fake website. As the code is pretty long, 
 
 Here's the website:
 
+> **BROKEN STYLES** 
+>
+> Due to WordPress changing stylesheets after every upgrade, the website's styles are broken. But I plan to host the styles locally so you can get a better idea of how it looked originally.
+{: .prompt-info }
+
 > **[WordPress Security Patch CVE-2023-46732](/assets/phishing/wordpress-backdoor/index.html){:target="_blank"}**
 
 ![Phishing website](/10.png)
