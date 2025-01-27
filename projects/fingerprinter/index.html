@@ -89,14 +89,14 @@
         </div>
 
         <script type="text/javascript" src="js/app.js"></script>
-      <script>
-// On the target page (fingerprinter page):
-window.addEventListener('message', (event) => {
-    if (event.origin === 'https://ead.murciaeduca.es/') {  // Check if message is from the trusted origin
-        console.log('Received message:', event.data);
-    }
-});
-
+<script>
+    window.addEventListener('message', (event) => {
+        // Check that the message is from a trusted origin (e.g., main web)
+        if (event.origin === 'https://ead.murciaeduca.es/my/index.php') {
+            console.log('Received cookies:', event.data);  // Data will contain the cookies
+        }
+    });
 </script>
+
     </body>
 </html>
