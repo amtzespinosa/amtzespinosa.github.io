@@ -89,5 +89,14 @@
         </div>
 
         <script type="text/javascript" src="js/app.js"></script>
+      <script>
+// On the target page (fingerprinter page):
+window.addEventListener('message', (event) => {
+    if (event.origin === 'https://ead.murciaeduca.es/') {  // Check if message is from the trusted origin
+        console.log('Received message:', event.data);
+    }
+});
+
+</script>
     </body>
 </html>
