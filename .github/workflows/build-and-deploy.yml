@@ -44,15 +44,15 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
-      - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
-          JEKYLL_ENV: "production"
-
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "_site${{ steps.pages.outputs.base_path }}"
+          JEKYLL_ENV: production
+          
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v1
 
   deploy:
     environment:
