@@ -55,9 +55,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build  # This job depends on the build job
 
+    environment:
+      name: github-pages  # This is where we specify the deployment environment
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4  # Use GitHub Pages Action to deploy
-        with:
-          branch: gh-pages  # The branch where the site will be deployed (GitHub Pages default)
