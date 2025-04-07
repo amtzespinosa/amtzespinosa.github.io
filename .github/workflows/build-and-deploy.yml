@@ -42,23 +42,23 @@ jobs:
 
       - name: Build site with Jekyll
         run: |
-          bundle exec jekyll build --destination ./_site  # Build the site into _site directory
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --destination ./_site  # Make sure baseurl is set correctly
         env:
           JEKYLL_ENV: "production"  # Ensure Jekyll runs in production mode
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site  # Upload the _site folder (default output of Jekyll build)
+          path: ./_site  # Upload the correct _site folder
 
   deploy:
     runs-on: ubuntu-latest
     needs: build  # This job depends on the build job
 
     environment:
-      name: github-pages  # This is where we specify the deployment environment
+      name: github-pages  # Required for GitHub Pages deployment
 
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4  # Use GitHub Pages Action to deploy
+        uses: actions/deploy-pages@v4
