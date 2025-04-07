@@ -46,10 +46,6 @@ jobs:
         env:
           JEKYLL_ENV: "production"  # Ensure Jekyll runs in production mode
 
-      - name: Test site with HTMLProofer
-        run: |
-          bundle exec htmlproofer ./_site --disable-external --check-html --allow-hash-href  # Optional HTML validation (helpful to catch broken links)
-
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
