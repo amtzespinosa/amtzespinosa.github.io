@@ -6,7 +6,7 @@ order: 7
 
 # Hi there, I'm Alex!
 
-I'm a proactive **Cybersecurity and OSINT professional** with a focus and background in intelligence, pentesting and Red Teaming.
+I'm a proactive **Cybersecurity professional** with a focus and background in intelligence, pentesting and Red Teaming.
 
 ## About
 
@@ -30,17 +30,6 @@ I'm a proactive **Cybersecurity and OSINT professional** with a focus and backgr
 - Implement APT techniques such as backdoors for command and control using open source and custom frameworks 
 - Write detailed reports covering the goals and outcomes of the team
 
-#### OSINT Specialist
-
-**Position:** Freelance<br>
-**Period:** February 2018 - Present
-
-- Collection and analysis of open-source information to identify and mitigate threats.
-- Utilization of OSINT tools such as Maltego, SpiderFoot, and Shodan to conduct in-depth investigations.
-- Development of advanced search techniques to extract valuable information from the web and social networks.
-- Collaboration with security teams to integrate OSINT data into operational security strategies.
-- Writing detailed reports with findings and recommendations for risk mitigation.
-
 #### Special Forces Operator
 
 **Period:** January 2021 - May 2024
@@ -63,29 +52,21 @@ I'm a proactive **Cybersecurity and OSINT professional** with a focus and backgr
 
 #### Pentesting
 
-- **OSCP** - OffSec, 2023
-- **CEH** - EC-Council, 2021
 - **CISCO** Ethical Hacker - CISCO, 2024
 - **CISCO** Certified Support Technician (CCST) Cybersecurity - CISCO, 2022
-- **Security+** - CompTIA, 2020
 - **Practical Ethical Hacking** - TCM Security, 2023
 
 #### Networking 
 
-- **CCNA** / CISCO Certified Network Associate
-
-#### Cloud
-- **AWS Cloud Practitioner** - AWS, 2024
+- **CCNA Course** / CISCO Certified Network Associate (CCNA) Course
 
 #### Programming
 
-- **PCAP** / Certified Associate in Python Programming
 - **SQL** / SQL and Relational Databases
 
 #### Other
 
 - **OSINT** / TCM Security
-- **A+** / CompTIA
 - **CS50** / Introduction to Computer Science
 - **Negociation** / University of Michigan Successful Negotiations
 
