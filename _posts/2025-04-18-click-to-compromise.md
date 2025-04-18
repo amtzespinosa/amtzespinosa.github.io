@@ -6,7 +6,7 @@ categories: [Research]
 tags: [research, clickfix, apt, malware, fileless, living-off-the-land]
 img_path: /assets/img/posts/2025-04-18-click-to-compromise/
 image:
-  path: attack_chain.png
+  path: header.png
   alt: Click-to-Compromise attack chain
 ---
 
