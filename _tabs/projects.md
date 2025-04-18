@@ -4,20 +4,9 @@ icon: fa fa-code
 order: 2
 ---
 
-### <a href="https://github.com/amtzespinosa/wpyscan">WPyScan</a>
+### [PwnPress Framework](http://pwnpress.org/)
 
-A tool developed in Python for enumerating and scanning **WordPress** websites. It is an easy-to-use tool that can be run from the command line. **WPyScan** can enumerate and find any vulnerability associated with **version**, **theme** and **plugins** installed.
-- **FREE UNLIMITED** API queries
-- **WordFence** WordPress Vulnerability Database
-- **Brute Force** enumeration available for almost any check
-- **WAF Bypass** with random user agents by default
-- **Measures for CAPTCHA avoidance**
-
-### <a href="https://github.com/amtzespinosa/passman">#passman</a>
-
-**#passman** is a password generator and manager built using Python and SQLite3. It has a nice GUI made with **Tkinter** and  **CustomTkinter**.
-
-It's not a final version as I coded it as a 24h. straight coding challenge. The installation is not a proper installation process and it's not correct by any means. The point of this repo is to share it with the community and see how far can it go with other's modifications. Please, feel free to fork it and share your improvements.
+**PwnPress Framework** is a powerful and automated WordPress vulnerability scanner - the exploitation tool part stills under development and **looking for colaborators**. It can scan WordPress sites (in the same way as **WPScan**) and it aims detect and, in the future, also exploit vulnerabilities in WordPress core, plugins, and themes. **It is completely free, open source and with no API rate limit.**
 
 ### [>_ Sheller](/projects/sheller/)
 
