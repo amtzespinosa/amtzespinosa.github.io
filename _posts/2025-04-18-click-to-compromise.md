@@ -1,5 +1,5 @@
 ---
-title: Click-to-Compromise: From ClickFix to full compromise featuring Windows Defender bypass, C2 connection and persistence
+title: "Click-to-Compromise: From ClickFix to full compromise featuring Windows Defender bypass, C2 connection and persistence"
 author: alex
 date: Fri 18 Apr 15:35:48 CEST 2025
 categories: [Research]
