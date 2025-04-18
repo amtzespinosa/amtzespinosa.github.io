@@ -1,5 +1,5 @@
 ---
-title: PwnPress Framework is here, time to bury WPScan
+title: PwnPress Framework is here, time to bury WPScan (and my WPyScan)
 author: alex
 date: Fri 21 Mar 15:35:48 CEST 2025
 categories: [Tools]
@@ -23,10 +23,8 @@ image:
 ![license](https://img.shields.io/badge/license-GPLv3-lightgrey)
 ![language](https://img.shields.io/badge/java-17-yellowgreen?stlye=flat&logo=Java)
 
-```
-I know, I know, code is a mess. I will sort that in later versions. First I want to craft an amazing tool. 
-If anyone out there wants to help, you're welcome!
-```
+> I know, I know, code is a mess. I will sort that in later versions. First I want to craft an amazing tool. 
+> If anyone out there wants to help, you're welcome!
 
 **Contact:** hello@pwnpress.org
 
