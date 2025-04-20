@@ -1,5 +1,5 @@
 ---
-title: PwnPress Framework is here, time to bury WPScan (and my WPyScan)
+title: PwnPress Framework is here, time to ditch WPScan (and my WPyScan)
 author: alex
 date: Fri 21 Mar 15:35:48 CEST 2025
 categories: [Tools]
