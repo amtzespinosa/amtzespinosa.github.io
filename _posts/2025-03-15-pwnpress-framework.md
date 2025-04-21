@@ -107,4 +107,4 @@ Commands pointed with (*) are still under development and (probably) do not work
 If you have any skills that you consider relevant for the project, let me know! Join the project:
 
 - Send an email to development@pwnpress.org
-- Or use this form: [http://pwnpress.org/](http://pwnpress.org/#join)
+- Or use this form: [https://pwnpress.org/](https://pwnpress.org/#join)
