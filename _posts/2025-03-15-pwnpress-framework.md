@@ -41,7 +41,7 @@ image:
 
 > **BUGS REPORTING** 
 >
-> Please, report any bug or problem in the Issues section.
+> Please, report any bug or problem in the [Issues section](https://github.com/amtzespinosa/amtzespinosa.github.io/issues).
 {: .prompt-danger }
 
 ### Option 1 - Java:
