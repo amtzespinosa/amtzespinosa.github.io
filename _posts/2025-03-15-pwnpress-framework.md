@@ -18,13 +18,9 @@ image:
 
 **[PwnPress Framework](http://pwnpress.org/)** is a powerful and automated WordPress vulnerability scanner - the exploitation tool part stills under development and **looking for colaborators**. It can scan WordPress sites (in the same way as **WPScan**) and it aims detect and, in the future, also exploit vulnerabilities in WordPress core, plugins, and themes. **It is completely free, open source and with no API rate limit.**
 
-![version](https://img.shields.io/badge/version-1.2.0-blue)
-![build](https://img.shields.io/badge/build-passing-green)
-![license](https://img.shields.io/badge/license-GPLv3-lightgrey)
-![language](https://img.shields.io/badge/java-17-yellowgreen?stlye=flat&logo=Java)
-
 > I know, I know, code is a mess. I will sort that in later versions. First I want to craft an amazing tool. 
 > If anyone out there wants to help, you're welcome!
+{: .prompt-info }
 
 **Contact:** hello@pwnpress.org
 
@@ -43,9 +39,10 @@ image:
 
 ## Installing & Running
 
-```
-Please, report any bug or problem in the Issues section.
-```
+> **BUGS REPORTING** 
+>
+> Please, report any bug or problem in the Issues section.
+{: .prompt-danger }
 
 ### Option 1 - Java:
 With Java installed, you can download the *.jar* file and run it with the following command:
